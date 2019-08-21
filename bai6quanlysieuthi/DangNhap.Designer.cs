@@ -1,6 +1,6 @@
 ﻿namespace bai6quanlysieuthi
 {
-    partial class Form1
+    partial class DangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login));
+           
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtTaiKhoan = new System.Windows.Forms.TextBox();
@@ -63,7 +63,7 @@
             this.txtTaiKhoan.Name = "txtTaiKhoan";
             this.txtTaiKhoan.Size = new System.Drawing.Size(221, 29);
             this.txtTaiKhoan.TabIndex = 2;
-            this.txtTaiKhoan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTaiKhoan_KeyDown);
+         
             // 
             // txtMatKhau
             // 
@@ -72,7 +72,7 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(221, 29);
             this.txtMatKhau.TabIndex = 3;
-            this.txtMatKhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMatKhau_KeyDown);
+            
             // 
             // btnDangNhap
             // 
@@ -84,7 +84,7 @@
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
-            this.btnDangNhap.Click += new System.EventHandler(this.btbDangNhap_Click);
+          
             // 
             // btnThoat
             // 
@@ -95,7 +95,7 @@
             this.btnThoat.TabIndex = 5;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            
             // 
             // checkBox1
             // 
@@ -106,7 +106,7 @@
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Hiện mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+    
             // 
             // login
             // 
@@ -121,7 +121,7 @@
             this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+         
             this.Name = "login";
             this.Text = "Đăng nhập";
             this.ResumeLayout(false);
