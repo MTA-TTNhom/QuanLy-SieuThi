@@ -69,7 +69,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(64, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(756, 136);
@@ -79,7 +79,7 @@
             // btnSearch_CTXK
             // 
             this.btnSearch_CTXK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnSearch_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch_CTXK.Location = new System.Drawing.Point(562, 82);
             this.btnSearch_CTXK.Name = "btnSearch_CTXK";
             this.btnSearch_CTXK.Size = new System.Drawing.Size(128, 35);
@@ -91,7 +91,7 @@
             // 
             this.cbMaMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaMatHang.FormattingEnabled = true;
-            this.cbMaMatHang.Location = new System.Drawing.Point(180, 87);
+            this.cbMaMatHang.Location = new System.Drawing.Point(202, 87);
             this.cbMaMatHang.Name = "cbMaMatHang";
             this.cbMaMatHang.Size = new System.Drawing.Size(101, 28);
             this.cbMaMatHang.TabIndex = 9;
@@ -100,7 +100,7 @@
             // 
             this.cbMaXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMaXuat.FormattingEnabled = true;
-            this.cbMaXuat.Location = new System.Drawing.Point(180, 48);
+            this.cbMaXuat.Location = new System.Drawing.Point(202, 48);
             this.cbMaXuat.Name = "cbMaXuat";
             this.cbMaXuat.Size = new System.Drawing.Size(101, 28);
             this.cbMaXuat.TabIndex = 8;
@@ -124,7 +124,7 @@
             // txtSTT
             // 
             this.txtSTT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSTT.Location = new System.Drawing.Point(180, 16);
+            this.txtSTT.Location = new System.Drawing.Point(202, 13);
             this.txtSTT.Name = "txtSTT";
             this.txtSTT.Size = new System.Drawing.Size(101, 26);
             this.txtSTT.TabIndex = 5;
@@ -132,7 +132,7 @@
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(389, 16);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 23);
@@ -142,7 +142,7 @@
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(389, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 23);
@@ -152,17 +152,17 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(45, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 23);
+            this.label3.Size = new System.Drawing.Size(141, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mã mặt hàng";
             // 
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(45, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 23);
@@ -172,7 +172,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(45, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 23);
@@ -190,7 +190,7 @@
             // btnExit_CTXK
             // 
             this.btnExit_CTXK.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnExit_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit_CTXK.Location = new System.Drawing.Point(735, 394);
             this.btnExit_CTXK.Name = "btnExit_CTXK";
             this.btnExit_CTXK.Size = new System.Drawing.Size(85, 40);
@@ -201,7 +201,7 @@
             // btnDelete_CTXK
             // 
             this.btnDelete_CTXK.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnDelete_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete_CTXK.Location = new System.Drawing.Point(735, 335);
             this.btnDelete_CTXK.Name = "btnDelete_CTXK";
             this.btnDelete_CTXK.Size = new System.Drawing.Size(85, 40);
@@ -212,7 +212,7 @@
             // btnUpdate_CTXK
             // 
             this.btnUpdate_CTXK.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnUpdate_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate_CTXK.Location = new System.Drawing.Point(735, 277);
             this.btnUpdate_CTXK.Name = "btnUpdate_CTXK";
             this.btnUpdate_CTXK.Size = new System.Drawing.Size(85, 40);
@@ -223,7 +223,7 @@
             // btnInsert_CTXK
             // 
             this.btnInsert_CTXK.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnInsert_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert_CTXK.Location = new System.Drawing.Point(735, 163);
             this.btnInsert_CTXK.Name = "btnInsert_CTXK";
             this.btnInsert_CTXK.Size = new System.Drawing.Size(85, 40);
@@ -234,7 +234,7 @@
             // btnView_CTXK
             // 
             this.btnView_CTXK.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnView_CTXK.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView_CTXK.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView_CTXK.Location = new System.Drawing.Point(735, 220);
             this.btnView_CTXK.Name = "btnView_CTXK";
             this.btnView_CTXK.Size = new System.Drawing.Size(85, 40);
