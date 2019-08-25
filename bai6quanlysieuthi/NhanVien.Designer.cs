@@ -458,7 +458,43 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.MenuStrip mnsNhanVien;
+        private System.Windows.Forms.ToolStripMenuItem menuTrangChu;
+        private System.Windows.Forms.ToolStripMenuItem menuKhachHang;
+        private System.Windows.Forms.ToolStripMenuItem menuHangHoa;
+        private System.Windows.Forms.ToolStripMenuItem hướngDấnToolStripMenuItem;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.ComboBox cbSearch;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Button btnSearch_NV;
+        private System.Windows.Forms.Button btnExit_NV;
+        private System.Windows.Forms.Button btnDelete_NV;
+        private System.Windows.Forms.Button btnUpdate_NV;
+        private System.Windows.Forms.Button btnInsert_NV;
+        private System.Windows.Forms.Button btnView_NV;
+        private System.Windows.Forms.DataGridView dgvNhanVien;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cbMaChucVu;
+        private System.Windows.Forms.TextBox txtSoDienThoai;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.TextBox txtMa;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.TextBox txtTaiKhoan;
 
+        private System.Windows.Forms.Button btnDelete_CTPGC;
         private System.Windows.Forms.Button btnUpdate_CTPGC;
         private System.Windows.Forms.Button btnInsert_CTPGC;
         private System.Windows.Forms.Button btnView_CTPGC;
