@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.mnsHangHoa = new System.Windows.Forms.MenuStrip();
             this.menuTrangChu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuKhachHang = new System.Windows.Forms.ToolStripMenuItem();
@@ -87,7 +86,6 @@
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnSearch_MH = new System.Windows.Forms.Button();
             this.btnExit_MH = new System.Windows.Forms.Button();
             this.btnDelete_MH = new System.Windows.Forms.Button();
             this.btnUpdate_MH = new System.Windows.Forms.Button();
@@ -95,6 +93,7 @@
             this.btnView_MH = new System.Windows.Forms.Button();
             this.dgvMatHang = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSearch_MH = new System.Windows.Forms.Button();
             this.txtGiaMh = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtMaNCC = new System.Windows.Forms.TextBox();
@@ -113,6 +112,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtEmailNCC = new System.Windows.Forms.TextBox();
+            this.btnSearch_NSX = new System.Windows.Forms.Button();
             this.txtDienThoaiNCC = new System.Windows.Forms.TextBox();
             this.txtDiaChiNCC = new System.Windows.Forms.TextBox();
             this.txtTenNCC = new System.Windows.Forms.TextBox();
@@ -122,7 +122,6 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.btnSearch_NSX = new System.Windows.Forms.Button();
             this.btnExit_NSX = new System.Windows.Forms.Button();
             this.btnDelete_NSX = new System.Windows.Forms.Button();
             this.btnUpdate_NSX = new System.Windows.Forms.Button();
@@ -177,28 +176,24 @@
             this.menuTrangChu.Name = "menuTrangChu";
             this.menuTrangChu.Size = new System.Drawing.Size(90, 25);
             this.menuTrangChu.Text = "Trang chủ";
-
             // 
             // menuKhachHang
             // 
             this.menuKhachHang.Name = "menuKhachHang";
             this.menuKhachHang.Size = new System.Drawing.Size(103, 25);
             this.menuKhachHang.Text = "Khách hàng";
- 
             // 
             // menuNhanVien
             // 
             this.menuNhanVien.Name = "menuNhanVien";
             this.menuNhanVien.Size = new System.Drawing.Size(93, 25);
             this.menuNhanVien.Text = "Nhân viên";
-
             // 
             // menuHuongDan
             // 
             this.menuHuongDan.Name = "menuHuongDan";
             this.menuHuongDan.Size = new System.Drawing.Size(100, 25);
             this.menuHuongDan.Text = "Hướng dấn";
-
             // 
             // errorProvider1
             // 
@@ -238,7 +233,6 @@
             this.btnSearch_KQ.TabIndex = 26;
             this.btnSearch_KQ.Text = "Tìm kiếm";
             this.btnSearch_KQ.UseVisualStyleBackColor = false;
-  
             // 
             // btnExit_KQ
             // 
@@ -250,7 +244,6 @@
             this.btnExit_KQ.TabIndex = 21;
             this.btnExit_KQ.Text = "Thoát";
             this.btnExit_KQ.UseVisualStyleBackColor = false;
-
             // 
             // groupBox3
             // 
@@ -282,7 +275,6 @@
             this.btnDelete_QH.TabIndex = 16;
             this.btnDelete_QH.Text = "Xóa";
             this.btnDelete_QH.UseVisualStyleBackColor = false;
-
             // 
             // btnUpdate_QH
             // 
@@ -294,7 +286,6 @@
             this.btnUpdate_QH.TabIndex = 18;
             this.btnUpdate_QH.Text = "Sửa";
             this.btnUpdate_QH.UseVisualStyleBackColor = false;
-
             // 
             // rtbViTriQh
             // 
@@ -314,7 +305,6 @@
             this.btnInsert_QH.TabIndex = 17;
             this.btnInsert_QH.Text = "Thêm";
             this.btnInsert_QH.UseVisualStyleBackColor = false;
-   
             // 
             // label34
             // 
@@ -334,7 +324,6 @@
             this.btnView_QH.TabIndex = 16;
             this.btnView_QH.Text = "Xem";
             this.btnView_QH.UseVisualStyleBackColor = false;
-  
             // 
             // txtTenQuayH
             // 
@@ -373,7 +362,6 @@
             this.dgvQuayHang.Name = "dgvQuayHang";
             this.dgvQuayHang.Size = new System.Drawing.Size(308, 175);
             this.dgvQuayHang.TabIndex = 1;
-  
             // 
             // groupBox2
             // 
@@ -405,7 +393,6 @@
             this.btnDelete_KH.TabIndex = 15;
             this.btnDelete_KH.Text = "Xóa";
             this.btnDelete_KH.UseVisualStyleBackColor = false;
-
             // 
             // btnUpdate_KH
             // 
@@ -417,7 +404,6 @@
             this.btnUpdate_KH.TabIndex = 14;
             this.btnUpdate_KH.Text = "Sửa";
             this.btnUpdate_KH.UseVisualStyleBackColor = false;
-    
             // 
             // btnInsert_KH
             // 
@@ -429,7 +415,6 @@
             this.btnInsert_KH.TabIndex = 13;
             this.btnInsert_KH.Text = "Thêm";
             this.btnInsert_KH.UseVisualStyleBackColor = false;
-
             // 
             // btnView_KH
             // 
@@ -441,7 +426,6 @@
             this.btnView_KH.TabIndex = 12;
             this.btnView_KH.Text = "Xem";
             this.btnView_KH.UseVisualStyleBackColor = false;
-   
             // 
             // rtbDiaChiKho
             // 
@@ -496,7 +480,6 @@
             this.dgvKhoHang.Name = "dgvKhoHang";
             this.dgvKhoHang.Size = new System.Drawing.Size(308, 175);
             this.dgvKhoHang.TabIndex = 0;
-  
             // 
             // tabPage4
             // 
@@ -521,7 +504,6 @@
             this.dgvXK.Name = "dgvXK";
             this.dgvXK.Size = new System.Drawing.Size(676, 281);
             this.dgvXK.TabIndex = 29;
-   
             // 
             // btnExit_XK
             // 
@@ -533,7 +515,6 @@
             this.btnExit_XK.TabIndex = 28;
             this.btnExit_XK.Text = "Thoát";
             this.btnExit_XK.UseVisualStyleBackColor = false;
- 
             // 
             // btnDelete_XK
             // 
@@ -545,7 +526,6 @@
             this.btnDelete_XK.TabIndex = 26;
             this.btnDelete_XK.Text = "Xóa";
             this.btnDelete_XK.UseVisualStyleBackColor = false;
-     
             // 
             // btnUpdate_XK
             // 
@@ -557,7 +537,6 @@
             this.btnUpdate_XK.TabIndex = 25;
             this.btnUpdate_XK.Text = "Sửa";
             this.btnUpdate_XK.UseVisualStyleBackColor = false;
-       
             // 
             // btnInsert_XK
             // 
@@ -569,7 +548,6 @@
             this.btnInsert_XK.TabIndex = 24;
             this.btnInsert_XK.Text = "Thêm";
             this.btnInsert_XK.UseVisualStyleBackColor = false;
-
             // 
             // btnView_XK
             // 
@@ -581,7 +559,6 @@
             this.btnView_XK.TabIndex = 23;
             this.btnView_XK.Text = "Xem";
             this.btnView_XK.UseVisualStyleBackColor = false;
-  
             // 
             // panel9
             // 
@@ -614,7 +591,6 @@
             this.btnSearch_XK.TabIndex = 19;
             this.btnSearch_XK.Text = "Tìm kiếm";
             this.btnSearch_XK.UseVisualStyleBackColor = false;
-  
             // 
             // dtpNgayLapXk
             // 
@@ -632,7 +608,6 @@
             this.btnDetail_XK.TabIndex = 20;
             this.btnDetail_XK.Text = "Chi tiết";
             this.btnDetail_XK.UseVisualStyleBackColor = false;
-     
             // 
             // cbMaQuayXK
             // 
@@ -762,17 +737,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Mặt hàng";
             // 
-            // btnSearch_MH
-            // 
-            this.btnSearch_MH.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSearch_MH.Location = new System.Drawing.Point(602, 109);
-            this.btnSearch_MH.Name = "btnSearch_MH";
-            this.btnSearch_MH.Size = new System.Drawing.Size(110, 30);
-            this.btnSearch_MH.TabIndex = 12;
-            this.btnSearch_MH.Text = "Tìm kiếm";
-            this.btnSearch_MH.UseVisualStyleBackColor = false;
-        
-            // 
             // btnExit_MH
             // 
             this.btnExit_MH.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -783,7 +747,6 @@
             this.btnExit_MH.TabIndex = 13;
             this.btnExit_MH.Text = "Thoát";
             this.btnExit_MH.UseVisualStyleBackColor = false;
-           
             // 
             // btnDelete_MH
             // 
@@ -795,7 +758,6 @@
             this.btnDelete_MH.TabIndex = 11;
             this.btnDelete_MH.Text = "Xóa";
             this.btnDelete_MH.UseVisualStyleBackColor = false;
-         
             // 
             // btnUpdate_MH
             // 
@@ -807,7 +769,6 @@
             this.btnUpdate_MH.TabIndex = 10;
             this.btnUpdate_MH.Text = "Sửa";
             this.btnUpdate_MH.UseVisualStyleBackColor = false;
-      
             // 
             // btnInsert_MH
             // 
@@ -819,7 +780,6 @@
             this.btnInsert_MH.TabIndex = 9;
             this.btnInsert_MH.Text = "Thêm";
             this.btnInsert_MH.UseVisualStyleBackColor = false;
-        
             // 
             // btnView_MH
             // 
@@ -831,7 +791,6 @@
             this.btnView_MH.TabIndex = 8;
             this.btnView_MH.Text = "Xem";
             this.btnView_MH.UseVisualStyleBackColor = false;
-       
             // 
             // dgvMatHang
             // 
@@ -840,7 +799,6 @@
             this.dgvMatHang.Name = "dgvMatHang";
             this.dgvMatHang.Size = new System.Drawing.Size(668, 244);
             this.dgvMatHang.TabIndex = 1;
-   
             // 
             // panel1
             // 
@@ -864,6 +822,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(777, 152);
             this.panel1.TabIndex = 0;
+            // 
+            // btnSearch_MH
+            // 
+            this.btnSearch_MH.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSearch_MH.Location = new System.Drawing.Point(602, 109);
+            this.btnSearch_MH.Name = "btnSearch_MH";
+            this.btnSearch_MH.Size = new System.Drawing.Size(110, 30);
+            this.btnSearch_MH.TabIndex = 12;
+            this.btnSearch_MH.Text = "Tìm kiếm";
+            this.btnSearch_MH.UseVisualStyleBackColor = false;
+            this.btnSearch_MH.Click += new System.EventHandler(this.btnSearch_MH_Click);
             // 
             // txtGiaMh
             // 
@@ -1046,6 +1015,17 @@
             this.txtEmailNCC.Size = new System.Drawing.Size(303, 25);
             this.txtEmailNCC.TabIndex = 9;
             // 
+            // btnSearch_NSX
+            // 
+            this.btnSearch_NSX.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSearch_NSX.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch_NSX.Location = new System.Drawing.Point(663, 102);
+            this.btnSearch_NSX.Name = "btnSearch_NSX";
+            this.btnSearch_NSX.Size = new System.Drawing.Size(103, 32);
+            this.btnSearch_NSX.TabIndex = 11;
+            this.btnSearch_NSX.Text = "Tìm kiếm";
+            this.btnSearch_NSX.UseVisualStyleBackColor = false;
+            // 
             // txtDienThoaiNCC
             // 
             this.txtDienThoaiNCC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1127,18 +1107,6 @@
             this.label16.TabIndex = 0;
             this.label16.Text = "Mã";
             // 
-            // btnSearch_NSX
-            // 
-            this.btnSearch_NSX.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSearch_NSX.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch_NSX.Location = new System.Drawing.Point(663, 102);
-            this.btnSearch_NSX.Name = "btnSearch_NSX";
-            this.btnSearch_NSX.Size = new System.Drawing.Size(103, 32);
-            this.btnSearch_NSX.TabIndex = 11;
-            this.btnSearch_NSX.Text = "Tìm kiếm";
-            this.btnSearch_NSX.UseVisualStyleBackColor = false;
-
-            // 
             // btnExit_NSX
             // 
             this.btnExit_NSX.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -1149,7 +1117,6 @@
             this.btnExit_NSX.TabIndex = 19;
             this.btnExit_NSX.Text = "Thoát";
             this.btnExit_NSX.UseVisualStyleBackColor = false;
-
             // 
             // btnDelete_NSX
             // 
@@ -1161,7 +1128,6 @@
             this.btnDelete_NSX.TabIndex = 17;
             this.btnDelete_NSX.Text = "Xóa";
             this.btnDelete_NSX.UseVisualStyleBackColor = false;
-        
             // 
             // btnUpdate_NSX
             // 
@@ -1173,7 +1139,6 @@
             this.btnUpdate_NSX.TabIndex = 16;
             this.btnUpdate_NSX.Text = "Sửa";
             this.btnUpdate_NSX.UseVisualStyleBackColor = false;
-      
             // 
             // btnInsert_NSX
             // 
@@ -1185,7 +1150,6 @@
             this.btnInsert_NSX.TabIndex = 15;
             this.btnInsert_NSX.Text = "Thêm";
             this.btnInsert_NSX.UseVisualStyleBackColor = false;
-       
             // 
             // btnView_NSX
             // 
@@ -1197,24 +1161,14 @@
             this.btnView_NSX.TabIndex = 14;
             this.btnView_NSX.Text = "Xem";
             this.btnView_NSX.UseVisualStyleBackColor = false;
-       
             // 
             // dgvNSX
             // 
             this.dgvNSX.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNSX.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvNSX.Location = new System.Drawing.Point(37, 173);
             this.dgvNSX.Name = "dgvNSX";
             this.dgvNSX.Size = new System.Drawing.Size(710, 248);
             this.dgvNSX.TabIndex = 1;
-   
             // 
             // label6
             // 
@@ -1300,7 +1254,6 @@
             this.Controls.Add(this.mnsHangHoa);
             this.Name = "HangHoa";
             this.Text = "Hàng hóa";
- 
             this.mnsHangHoa.ResumeLayout(false);
             this.mnsHangHoa.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();

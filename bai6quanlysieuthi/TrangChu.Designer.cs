@@ -61,24 +61,28 @@
             this.menuKhachHang.Name = "menuKhachHang";
             this.menuKhachHang.Size = new System.Drawing.Size(103, 25);
             this.menuKhachHang.Text = "Khách hàng";
+            this.menuKhachHang.Click += new System.EventHandler(this.menuKhachHang_Click_1);
             // 
             // menuHangHoa
             // 
             this.menuHangHoa.Name = "menuHangHoa";
             this.menuHangHoa.Size = new System.Drawing.Size(89, 25);
             this.menuHangHoa.Text = "Hàng hóa";
+            this.menuHangHoa.Click += new System.EventHandler(this.menuHangHoa_Click_1);
             // 
             // menuNhanVien
             // 
             this.menuNhanVien.Name = "menuNhanVien";
             this.menuNhanVien.Size = new System.Drawing.Size(93, 25);
             this.menuNhanVien.Text = "Nhân viên";
+            this.menuNhanVien.Click += new System.EventHandler(this.menuNhanVien_Click_1);
             // 
             // menuHuongDan
             // 
             this.menuHuongDan.Name = "menuHuongDan";
             this.menuHuongDan.Size = new System.Drawing.Size(100, 25);
             this.menuHuongDan.Text = "Hướng dấn";
+            this.menuHuongDan.Click += new System.EventHandler(this.menuHuongDan_Click_1);
             // 
             // btnDangNhap
             // 
@@ -92,12 +96,13 @@
             this.btnDangNhap.TabIndex = 3;
             this.btnDangNhap.Text = "Đăng xuất";
             this.btnDangNhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click_1);
             // 
             // btnkhachhang
             // 
             this.btnkhachhang.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnkhachhang.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnkhachhang.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkhachhang.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnkhachhang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnkhachhang.Location = new System.Drawing.Point(33, 397);
             this.btnkhachhang.Name = "btnkhachhang";
@@ -111,7 +116,7 @@
             // 
             this.btnHangHoa.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnHangHoa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHangHoa.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHangHoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHangHoa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnHangHoa.Location = new System.Drawing.Point(165, 397);
             this.btnHangHoa.Name = "btnHangHoa";
@@ -125,7 +130,7 @@
             // 
             this.btnNhanVien.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnNhanVien.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNhanVien.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNhanVien.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnNhanVien.Location = new System.Drawing.Point(308, 397);
             this.btnNhanVien.Name = "btnNhanVien";
@@ -139,7 +144,7 @@
             // 
             this.btnThoat.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnThoat.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnThoat.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThoat.Location = new System.Drawing.Point(598, 397);
             this.btnThoat.Name = "btnThoat";
@@ -153,7 +158,7 @@
             // 
             this.btnHuongDan.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnHuongDan.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHuongDan.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuongDan.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuongDan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnHuongDan.Location = new System.Drawing.Point(446, 397);
             this.btnHuongDan.Name = "btnHuongDan";

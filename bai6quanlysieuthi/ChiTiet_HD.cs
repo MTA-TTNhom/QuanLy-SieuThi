@@ -189,5 +189,23 @@ namespace bai6quanlysieuthi
         {
 
         }
+
+        private void btnSearch_CTHD_Click(object sender, EventArgs e)
+        {
+            if (cbSearchCTHD.Text == @"Mã hóa đơn")
+            {
+                if (txtSearchCTHD.Text != "")
+                {
+                    dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd(txtSearchCTHD.Text);
+                }
+            }
+            else if (cbSearchCTHD.Text == @"Mã mặt hàng")
+            {
+                if (txtSearchCTHD.Text != "")
+                {
+                    dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd1(txtSearchCTHD.Text);
+                }
+            }
+        }
     }
 }
