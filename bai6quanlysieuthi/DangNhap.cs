@@ -50,5 +50,15 @@ namespace bai6quanlysieuthi
                 txtMatKhau.UseSystemPasswordChar = true;
             }
         }
+        private void txtTaiKhoan_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                txtMatKhau.Focus();
+        }
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btnDangNhap.Focus();
+        }
     }
 }
