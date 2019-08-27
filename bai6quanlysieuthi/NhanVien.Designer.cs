@@ -28,7 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-  
+            this.components = new System.ComponentModel.Container();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.cbSearch = new System.Windows.Forms.ComboBox();
+            this.btnDelete_CTPGC = new System.Windows.Forms.Button();
+            this.btnUpdate_CTPGC = new System.Windows.Forms.Button();
+            this.btnInsert_CTPGC = new System.Windows.Forms.Button();
+            this.btnView_CTPGC = new System.Windows.Forms.Button();
+            this.dgvCtGiaoCa = new System.Windows.Forms.DataGridView();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtSoLuongCgc = new System.Windows.Forms.TextBox();
+            this.txtMaMatHangCgc = new System.Windows.Forms.TextBox();
+            this.txtMaGiaoCaCgc = new System.Windows.Forms.TextBox();
+            this.txtSTTCgc = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.mnsNhanVien = new System.Windows.Forms.MenuStrip();
+            this.menuTrangChu = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuKhachHang = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuHangHoa = new System.Windows.Forms.ToolStripMenuItem();
+            this.hướngDấnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuGC)).BeginInit();
+            this.panel1.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCtGiaoCa)).BeginInit();
@@ -214,7 +246,134 @@
             this.txtTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTaiKhoan.Location = new System.Drawing.Point(480, 89);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-
+            this.txtTaiKhoan.Size = new System.Drawing.Size(274, 24);
+            this.txtTaiKhoan.TabIndex = 25;
+            // 
+            // dtpNgaySinh
+            // 
+            this.dtpNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpNgaySinh.Location = new System.Drawing.Point(480, 12);
+            this.dtpNgaySinh.Name = "dtpNgaySinh";
+            this.dtpNgaySinh.Size = new System.Drawing.Size(274, 24);
+            this.dtpNgaySinh.TabIndex = 24;
+            // 
+            // label8
+            // 
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(385, 132);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(100, 23);
+            this.label8.TabIndex = 23;
+            this.label8.Text = "Mật khẩu";
+            // 
+            // label7
+            // 
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(385, 92);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(100, 23);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Tài khoản";
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(385, 14);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(100, 23);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Ngày sinh";
+            // 
+            // cbMaChucVu
+            // 
+            this.cbMaChucVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaChucVu.FormattingEnabled = true;
+            this.cbMaChucVu.Location = new System.Drawing.Point(145, 129);
+            this.cbMaChucVu.Name = "cbMaChucVu";
+            this.cbMaChucVu.Size = new System.Drawing.Size(201, 26);
+            this.cbMaChucVu.TabIndex = 20;
+            // 
+            // txtSoDienThoai
+            // 
+            this.txtSoDienThoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoDienThoai.Location = new System.Drawing.Point(148, 89);
+            this.txtSoDienThoai.Name = "txtSoDienThoai";
+            this.txtSoDienThoai.Size = new System.Drawing.Size(201, 24);
+            this.txtSoDienThoai.TabIndex = 19;
+            // 
+            // txtDiaChi
+            // 
+            this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.Location = new System.Drawing.Point(480, 48);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(274, 24);
+            this.txtDiaChi.TabIndex = 18;
+            // 
+            // txtTen
+            // 
+            this.txtTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTen.Location = new System.Drawing.Point(145, 48);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(202, 24);
+            this.txtTen.TabIndex = 17;
+            // 
+            // txtMa
+            // 
+            this.txtMa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMa.Location = new System.Drawing.Point(148, 11);
+            this.txtMa.Name = "txtMa";
+            this.txtMa.Size = new System.Drawing.Size(201, 24);
+            this.txtMa.TabIndex = 16;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(35, 134);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Mã chức vụ";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(35, 92);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(118, 23);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Số điện thoại";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(385, 51);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Địa chỉ";
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(32, 51);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(133, 23);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Họ tên";
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(32, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(121, 23);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Mã nhân viên";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.btnExit_PGC);
             this.tabPage2.Controls.Add(this.btnDelete_PGC);
             this.tabPage2.Controls.Add(this.btnUpdate_PGC);
             this.tabPage2.Controls.Add(this.btnInsert_PGC);
