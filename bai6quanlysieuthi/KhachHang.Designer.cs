@@ -205,6 +205,7 @@
             this.btnSearchKh.TabIndex = 1;
             this.btnSearchKh.Text = "Tìm kiếm";
             this.btnSearchKh.UseVisualStyleBackColor = false;
+            this.btnSearchKh.Click += new System.EventHandler(this.btnSearchKh_Click);
             // 
             // btnExitKH
             // 

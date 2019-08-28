@@ -204,4 +204,25 @@ namespace bai6quanlysieuthi
         {
 
         }
+
+        private void btnSearch_CTXK_Click(object sender, EventArgs e)
+        {
+            if (cbMaMatHang.Text == "" && cbMaXuat.Text == "")
+            {
+                if (cbMaMatHang.Text =="")
+                    errorProvider1.SetError(cbMaMatHang, "Chưa có mã hàng cần tìm");
+                if (cbMaXuat.Text == "")
+                    errorProvider1.SetError(cbMaXuat, "Chưa có mã xuất cần tìm");
+                MessageBox.Show("Phải nhập vào thông tìn cần tìm");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            if (cbMaXuat.Text != "" || cbMaMatHang.Text != "")
+            {
+                dgvCtXuatKho.DataSource = CtXuatKhoController.Instance.SearchCtXuat(cbMaXuat.Text, cbMaMatHang.Text);
+            }
+        }
     }

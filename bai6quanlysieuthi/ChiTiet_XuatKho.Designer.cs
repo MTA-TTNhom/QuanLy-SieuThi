@@ -86,6 +86,7 @@
             this.btnSearch_CTXK.TabIndex = 11;
             this.btnSearch_CTXK.Text = "Tìm kiếm";
             this.btnSearch_CTXK.UseVisualStyleBackColor = false;
+            this.btnSearch_CTXK.Click += new System.EventHandler(this.btnSearch_CTXK_Click);
             // 
             // cbMaMatHang
             // 

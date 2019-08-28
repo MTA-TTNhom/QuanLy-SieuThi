@@ -16,5 +16,23 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
+
+        private void btnSearchKh_Click(object sender, EventArgs e)
+        {
+            if (cmbSearchKh.Text == @"Mã khách hàng")
+            {
+                if (txtSearchKh.Text != "")
+                {
+                    dgvKh.DataSource = KhachhangController.Instance.SearchKh(txtSearchKh.Text);
+                }
+            }
+            else if (cmbSearchKh.Text == @"Số điện thoại")
+            {
+                if (txtSearchKh.Text != "")
+                {
+                    dgvKh.DataSource = KhachhangController.Instance.SearchKh1(txtSearchKh.Text);
+                }
+            }
+        }
     }
 }
