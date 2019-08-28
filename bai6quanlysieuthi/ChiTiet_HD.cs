@@ -107,5 +107,24 @@ namespace bai6quanlysieuthi
                 return;
             }
         }
+
+        private void btnDelete_CTHD_Click(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+            int stt = (int)Convert.ToInt32(txtSTT.Text);
+
+            if (MessageBox.Show("Bạn có muốn xóa hay không", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                if (CtHoaDonController.Instance.DeleteCTHD(stt))
+                {
+                    MessageBox.Show("Xóa thành công!");
+                    ViewCtHoaDon();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không thành công!");
+            }
+        }
     }
 }
