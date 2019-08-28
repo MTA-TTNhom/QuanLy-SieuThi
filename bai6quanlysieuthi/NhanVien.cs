@@ -101,8 +101,27 @@ namespace bai6quanlysieuthi.Views
         private void dgvPhieuGC_CellClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void btnSearch_NV_Click_1(object sender, EventArgs e)
+        {
+            if (cbSearch.Text == @"Mã nhân viên")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
+                }
+            }
+            else if (cbSearch.Text == @"Số điện thoại")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
+                }
+            }
+        }
         #endregion
-#region theem phiếu giao ca
-       
+
+        #region theem phiếu giao ca
+
     }
 }
