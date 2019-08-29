@@ -125,6 +125,39 @@ namespace bai6quanlysieuthi
             {
                 MessageBox.Show("Không thành công!");
             }
+
+
+            private void btnExit_CTHD_Click(object sender, EventArgs e)
+            {
+                this.Close();
+            }
+
+            private void btnSearch_CTHD_Click(object sender, EventArgs e)
+            {
+                if (cbSearchCTHD.Text == @"Mã hóa đơn")
+                {
+                    if (txtSearchCTHD.Text != "")
+                    {
+                        dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd(txtSearchCTHD.Text);
+                    }
+                }
+                else if (cbSearchCTHD.Text == @"Mã mặt hàng")
+                {
+                    if (txtSearchCTHD.Text != "")
+                    {
+                        dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd1(txtSearchCTHD.Text);
+                    }
+                }
+            }
+
+            private void dgvCtHoaDon_CellClick(object sender, DataGridViewCellEventArgs e)
+            {
+                txtSTT.Text = dgvCtHoaDon.CurrentRow.Cells[0].Value.ToString();
+                txtMaHoaDon.Text = dgvCtHoaDon.CurrentRow.Cells[1].Value.ToString();
+                cbMaMatHang.Text = dgvCtHoaDon.CurrentRow.Cells[2].Value.ToString();
+                txtSoLuong.Text = dgvCtHoaDon.CurrentRow.Cells[3].Value.ToString();
+                txtDonGia.Text = dgvCtHoaDon.CurrentRow.Cells[4].Value.ToString();
+            }
         }
     }
 }
