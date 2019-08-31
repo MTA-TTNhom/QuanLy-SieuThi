@@ -36,5 +36,48 @@ namespace bai6quanlysieuthi
             dgvCtXuatKho.Columns["dongia"].HeaderText = @"Đơng giá";
             dgvCtXuatKho.Columns["dongia"].Width = 80;
         }
+
+#region thêm chi tiết phiếu xuất kho
+        private void btnInsert_CTXK_Click(object sender, EventArgs e)
+        {
+            if (cbMaXuat.Text == "" || cbMaMatHang.Text == "" || txtSoLuong.Text == "")
+            {
+                if (cbMaXuat.Text == "")
+                    errorProvider1.SetError(cbMaXuat, "Chưa có mã xuất");
+                if (cbMaMatHang.Text == "")
+                    errorProvider1.SetError(cbMaMatHang, "Chưa có mã mặt hàng");
+                if (txtSoLuong.Text == "")
+                    errorProvider1.SetError(txtSoLuong, "Chưa nhập số lượng");
+                MessageBox.Show("Chưa có thông tin đầy đủ");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            try
+            {
+                int sl = (int)Convert.ToInt32(txtSoLuong.Text);
+                if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    if (CtXuatKhoController.Instance.InsertCtXuat(cbMaXuat.Text, cbMaMatHang.Text, sl))
+                    {
+                        MessageBox.Show("Thêm thành công");
+                        ViewCtXuatKho();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Không thành công!");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi dữ liệu");
+                return;
+            }
+        }
+        #endregion
+
     }
 }
