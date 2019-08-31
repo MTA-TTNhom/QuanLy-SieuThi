@@ -79,5 +79,50 @@ namespace bai6quanlysieuthi
         }
         #endregion
 
+#region sửa chi tiết phiết xuất
+        private void btnUpdate_CTXK_Click(object sender, EventArgs e)
+        {
+            if (txtSTT.Text == "" || cbMaXuat.Text == "" || cbMaMatHang.Text == "" || txtSoLuong.Text == "")
+            {
+                if (txtSTT.Text == "")
+                    errorProvider1.SetError(txtSTT, "Chưa có stt cần sửa");
+                if (cbMaXuat.Text == "")
+                    errorProvider1.SetError(cbMaXuat, "Chưa có mã xuất");
+                if (cbMaMatHang.Text == "")
+                    errorProvider1.SetError(cbMaMatHang, "Chưa có mã mặt hàng");
+                if (txtSoLuong.Text == "")
+                    errorProvider1.SetError(txtSoLuong, "Chưa nhập số lượng");
+                MessageBox.Show("Chưa có thông tin đầy đủ");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            try
+            {
+                int stt = (int)Convert.ToInt32(txtSTT.Text);
+                int sl = (int)Convert.ToInt32(txtSoLuong.Text);
+                if (MessageBox.Show("Bạn có muốn sửa hay không", "sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    if (CtXuatKhoController.Instance.UpdateCtXuat(stt, cbMaXuat.Text, cbMaMatHang.Text, sl))
+                    {
+                        MessageBox.Show("Sửa thành công");
+                        ViewCtXuatKho();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Không thành công!");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi dữ liệu");
+                return;
+            }
+
+        }
+        #endregion
     }
 }
