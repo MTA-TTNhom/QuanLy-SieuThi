@@ -124,5 +124,40 @@ namespace bai6quanlysieuthi
 
         }
         #endregion
+
+        private void btnDelete_CTXK_Click(object sender, EventArgs e)
+        {
+            if (txtSTT.Text == "")
+            {
+                errorProvider1.SetError(txtSTT, "Chưa có stt cần xóa");
+                MessageBox.Show("Nhập vào stt cần xóa");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            try
+            {
+                int stt = (int)Convert.ToInt32(txtSTT.Text);
+                if (MessageBox.Show("Bạn có muốn xóa hay không", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    if (CtXuatKhoController.Instance.DeleteCtXuat(stt))
+                    {
+                        MessageBox.Show("Xóa thành công");
+                        ViewCtXuatKho();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Không thành công!");
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi dữ liệu");
+                return;
+            }
+        }
     }
 }
