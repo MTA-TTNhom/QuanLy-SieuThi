@@ -247,5 +247,13 @@ namespace bai6quanlysieuthi
                 }
             }
         }
+        private void dgvCtHoaDon_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtSTT.Text = dgvCtHoaDon.CurrentRow.Cells[0].Value.ToString();
+            txtMaHoaDon.Text = dgvCtHoaDon.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtHoaDon.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtHoaDon.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtHoaDon.CurrentRow.Cells[4].Value.ToString();
+        }
     }
 }

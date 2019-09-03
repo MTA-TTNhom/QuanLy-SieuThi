@@ -33,6 +33,10 @@ namespace bai6quanlysieuthi
                 MessageBox.Show("Sai tên khoài khoản hoặc mật khẩu!");
             }
         }
+        bool DangNhap(string userName, string passWord)
+        {
+            return DangNhapController.Instance.login(userName, passWord);
+        }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
