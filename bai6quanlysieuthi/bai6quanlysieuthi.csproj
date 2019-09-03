@@ -126,14 +126,16 @@
     <EmbeddedResource Include="Views\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
+
     <EmbeddedResource Include="HangHoa.resx">
       <DependentUpon>HangHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KhachHang.resx">
-=======
+
     <EmbeddedResource Include="Views\KhachHang.resx">
->>>>>>> 0ea1fd835ed7ef89a4a66a87ed89ba46f13cdd2a
+
+    <EmbeddedResource Include="Views\KhachHang.resx">
+
       <DependentUpon>KhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NhanVien.resx">
