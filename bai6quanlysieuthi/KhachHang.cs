@@ -39,5 +39,30 @@ namespace bai6quanlysieuthi
         {
 
         }
+
+        private void txtMakh_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenkh_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtSearchKh_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbSearchKh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -173,6 +173,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(695, 43);
             this.panel1.TabIndex = 8;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // cmbSearchKh
             // 
@@ -185,6 +186,7 @@
             this.cmbSearchKh.Name = "cmbSearchKh";
             this.cmbSearchKh.Size = new System.Drawing.Size(145, 26);
             this.cmbSearchKh.TabIndex = 12;
+            this.cmbSearchKh.SelectedIndexChanged += new System.EventHandler(this.cmbSearchKh_SelectedIndexChanged);
             // 
             // txtSearchKh
             // 
@@ -193,6 +195,7 @@
             this.txtSearchKh.Name = "txtSearchKh";
             this.txtSearchKh.Size = new System.Drawing.Size(224, 24);
             this.txtSearchKh.TabIndex = 11;
+            this.txtSearchKh.TextChanged += new System.EventHandler(this.txtSearchKh_TextChanged);
             // 
             // btnSearchKh
             // 
@@ -331,6 +334,7 @@
             this.txtTenkh.Size = new System.Drawing.Size(210, 24);
             this.txtTenkh.TabIndex = 7;
             this.txtTenkh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtTenkh.TextChanged += new System.EventHandler(this.txtTenkh_TextChanged);
             // 
             // txtMakh
             // 
@@ -340,6 +344,7 @@
             this.txtMakh.Size = new System.Drawing.Size(209, 24);
             this.txtMakh.TabIndex = 6;
             this.txtMakh.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMakh.TextChanged += new System.EventHandler(this.txtMakh_TextChanged);
             // 
             // label5
             // 

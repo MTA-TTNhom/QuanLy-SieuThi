@@ -244,6 +244,7 @@
             this.btnView_NV.TabIndex = 10;
             this.btnView_NV.Text = "Xem";
             this.btnView_NV.UseVisualStyleBackColor = false;
+            this.btnView_NV.Click += new System.EventHandler(this.btnView_NV_Click_1);
             // 
             // dgvNhanVien
             // 

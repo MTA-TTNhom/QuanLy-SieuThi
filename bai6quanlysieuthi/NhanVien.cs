@@ -124,6 +124,13 @@ namespace bai6quanlysieuthi.Views
         {
 
         }
+
+        private void btnView_NV_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            HangHoa open = new HangHoa();
+            open.Show();
+        }
         #endregion
 
         #region theem phiếu giao ca
