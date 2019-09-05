@@ -1,0 +1,352 @@
+﻿namespace bai6quanlysieuthi
+{
+    partial class ChiTiet_HD
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.btnExit_CTHD = new System.Windows.Forms.Button();
+            this.btnDelete_CTHD = new System.Windows.Forms.Button();
+            this.btnUpdate_CTHD = new System.Windows.Forms.Button();
+            this.btnInsert_CTHD = new System.Windows.Forms.Button();
+            this.btnView_CTHD = new System.Windows.Forms.Button();
+            this.dgvCtHoaDon = new System.Windows.Forms.DataGridView();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnSearch_CTHD = new System.Windows.Forms.Button();
+            this.txtSearchCTHD = new System.Windows.Forms.TextBox();
+            this.cbSearchCTHD = new System.Windows.Forms.ComboBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtMaHoaDon = new System.Windows.Forms.TextBox();
+            this.cbMaMatHang = new System.Windows.Forms.ComboBox();
+            this.txtDonGia = new System.Windows.Forms.TextBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.txtSTT = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCtHoaDon)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btnExit_CTHD
+            // 
+            this.btnExit_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnExit_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit_CTHD.Location = new System.Drawing.Point(762, 391);
+            this.btnExit_CTHD.Name = "btnExit_CTHD";
+            this.btnExit_CTHD.Size = new System.Drawing.Size(85, 40);
+            this.btnExit_CTHD.TabIndex = 19;
+            this.btnExit_CTHD.Text = "Thoát";
+            this.btnExit_CTHD.UseVisualStyleBackColor = false;
+            // 
+            // btnDelete_CTHD
+            // 
+            this.btnDelete_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnDelete_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete_CTHD.Location = new System.Drawing.Point(762, 335);
+            this.btnDelete_CTHD.Name = "btnDelete_CTHD";
+            this.btnDelete_CTHD.Size = new System.Drawing.Size(85, 40);
+            this.btnDelete_CTHD.TabIndex = 17;
+            this.btnDelete_CTHD.Text = "Xóa";
+            this.btnDelete_CTHD.UseVisualStyleBackColor = false;
+            // 
+            // btnUpdate_CTHD
+            // 
+            this.btnUpdate_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnUpdate_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnUpdate_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate_CTHD.Location = new System.Drawing.Point(762, 279);
+            this.btnUpdate_CTHD.Name = "btnUpdate_CTHD";
+            this.btnUpdate_CTHD.Size = new System.Drawing.Size(85, 40);
+            this.btnUpdate_CTHD.TabIndex = 16;
+            this.btnUpdate_CTHD.Text = "Sửa";
+            this.btnUpdate_CTHD.UseVisualStyleBackColor = false;
+            // 
+            // btnInsert_CTHD
+            // 
+            this.btnInsert_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnInsert_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInsert_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert_CTHD.Location = new System.Drawing.Point(762, 167);
+            this.btnInsert_CTHD.Name = "btnInsert_CTHD";
+            this.btnInsert_CTHD.Size = new System.Drawing.Size(85, 40);
+            this.btnInsert_CTHD.TabIndex = 15;
+            this.btnInsert_CTHD.Text = "Thêm";
+            this.btnInsert_CTHD.UseVisualStyleBackColor = false;
+            this.btnInsert_CTHD.Click += new System.EventHandler(this.btnInsert_CTHD_Click_1);
+            // 
+            // btnView_CTHD
+            // 
+            this.btnView_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnView_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnView_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnView_CTHD.Location = new System.Drawing.Point(762, 222);
+            this.btnView_CTHD.Name = "btnView_CTHD";
+            this.btnView_CTHD.Size = new System.Drawing.Size(85, 40);
+            this.btnView_CTHD.TabIndex = 14;
+            this.btnView_CTHD.Text = "Xem";
+            this.btnView_CTHD.UseVisualStyleBackColor = false;
+            // 
+            // dgvCtHoaDon
+            // 
+            this.dgvCtHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCtHoaDon.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvCtHoaDon.Location = new System.Drawing.Point(44, 190);
+            this.dgvCtHoaDon.Name = "dgvCtHoaDon";
+            this.dgvCtHoaDon.Size = new System.Drawing.Size(691, 244);
+            this.dgvCtHoaDon.TabIndex = 20;
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btnSearch_CTHD);
+            this.panel1.Controls.Add(this.txtSearchCTHD);
+            this.panel1.Controls.Add(this.cbSearchCTHD);
+            this.panel1.Location = new System.Drawing.Point(44, 138);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(691, 46);
+            this.panel1.TabIndex = 21;
+            // 
+            // btnSearch_CTHD
+            // 
+            this.btnSearch_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSearch_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSearch_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch_CTHD.Location = new System.Drawing.Point(557, 7);
+            this.btnSearch_CTHD.Name = "btnSearch_CTHD";
+            this.btnSearch_CTHD.Size = new System.Drawing.Size(111, 28);
+            this.btnSearch_CTHD.TabIndex = 11;
+            this.btnSearch_CTHD.Text = "Tìm kiếm";
+            this.btnSearch_CTHD.UseVisualStyleBackColor = false;
+            this.btnSearch_CTHD.Click += new System.EventHandler(this.btnSearch_CTHD_Click);
+            // 
+            // txtSearchCTHD
+            // 
+            this.txtSearchCTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchCTHD.Location = new System.Drawing.Point(286, 10);
+            this.txtSearchCTHD.Name = "txtSearchCTHD";
+            this.txtSearchCTHD.Size = new System.Drawing.Size(228, 26);
+            this.txtSearchCTHD.TabIndex = 10;
+            this.txtSearchCTHD.TextChanged += new System.EventHandler(this.txtSearchCTHD_TextChanged);
+            // 
+            // cbSearchCTHD
+            // 
+            this.cbSearchCTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbSearchCTHD.FormattingEnabled = true;
+            this.cbSearchCTHD.Items.AddRange(new object[] {
+            "Mã hóa đơn",
+            "Mã mặt hàng"});
+            this.cbSearchCTHD.Location = new System.Drawing.Point(50, 8);
+            this.cbSearchCTHD.Name = "cbSearchCTHD";
+            this.cbSearchCTHD.Size = new System.Drawing.Size(184, 28);
+            this.cbSearchCTHD.TabIndex = 10;
+            this.cbSearchCTHD.SelectedIndexChanged += new System.EventHandler(this.cbSearchCTHD_SelectedIndexChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.txtMaHoaDon);
+            this.panel2.Controls.Add(this.cbMaMatHang);
+            this.panel2.Controls.Add(this.txtDonGia);
+            this.panel2.Controls.Add(this.txtSoLuong);
+            this.panel2.Controls.Add(this.txtSTT);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panel2.Location = new System.Drawing.Point(44, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(803, 120);
+            this.panel2.TabIndex = 22;
+            // 
+            // txtMaHoaDon
+            // 
+            this.txtMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaHoaDon.Location = new System.Drawing.Point(180, 42);
+            this.txtMaHoaDon.Name = "txtMaHoaDon";
+            this.txtMaHoaDon.Size = new System.Drawing.Size(101, 26);
+            this.txtMaHoaDon.TabIndex = 10;
+            this.txtMaHoaDon.TextChanged += new System.EventHandler(this.txtMaHoaDon_TextChanged);
+            // 
+            // cbMaMatHang
+            // 
+            this.cbMaMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMaMatHang.FormattingEnabled = true;
+            this.cbMaMatHang.Location = new System.Drawing.Point(180, 79);
+            this.cbMaMatHang.Name = "cbMaMatHang";
+            this.cbMaMatHang.Size = new System.Drawing.Size(101, 28);
+            this.cbMaMatHang.TabIndex = 9;
+            // 
+            // txtDonGia
+            // 
+            this.txtDonGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDonGia.Location = new System.Drawing.Point(572, 42);
+            this.txtDonGia.Name = "txtDonGia";
+            this.txtDonGia.ReadOnly = true;
+            this.txtDonGia.Size = new System.Drawing.Size(164, 26);
+            this.txtDonGia.TabIndex = 7;
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoLuong.Location = new System.Drawing.Point(572, 8);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(164, 26);
+            this.txtSoLuong.TabIndex = 6;
+            // 
+            // txtSTT
+            // 
+            this.txtSTT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSTT.Location = new System.Drawing.Point(180, 8);
+            this.txtSTT.Name = "txtSTT";
+            this.txtSTT.ReadOnly = true;
+            this.txtSTT.Size = new System.Drawing.Size(101, 26);
+            this.txtSTT.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(435, 8);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Số lượng";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(435, 45);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Giá tiền";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(45, 84);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(112, 23);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Mã mặt hàng";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(45, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Mã hóa đơn";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(45, 11);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "STT";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // ChiTiet_HD
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ClientSize = new System.Drawing.Size(884, 461);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.dgvCtHoaDon);
+            this.Controls.Add(this.btnExit_CTHD);
+            this.Controls.Add(this.btnDelete_CTHD);
+            this.Controls.Add(this.btnUpdate_CTHD);
+            this.Controls.Add(this.btnInsert_CTHD);
+            this.Controls.Add(this.btnView_CTHD);
+            this.Name = "ChiTiet_HD";
+            this.Text = "Chi tiết hóa đơn";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCtHoaDon)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnExit_CTHD;
+        private System.Windows.Forms.Button btnDelete_CTHD;
+        private System.Windows.Forms.Button btnUpdate_CTHD;
+        private System.Windows.Forms.Button btnInsert_CTHD;
+        private System.Windows.Forms.Button btnView_CTHD;
+        private System.Windows.Forms.DataGridView dgvCtHoaDon;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnSearch_CTHD;
+        private System.Windows.Forms.TextBox txtSearchCTHD;
+        private System.Windows.Forms.ComboBox cbSearchCTHD;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.ComboBox cbMaMatHang;
+        private System.Windows.Forms.TextBox txtDonGia;
+        private System.Windows.Forms.TextBox txtSoLuong;
+        private System.Windows.Forms.TextBox txtSTT;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.TextBox txtMaHoaDon;
+    }
+}
