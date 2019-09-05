@@ -257,5 +257,10 @@ namespace bai6quanlysieuthi
         {
 
         }
+
+        private void txtSTT_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
