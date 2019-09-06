@@ -16,7 +16,38 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
-        #region View Mặt hàng
+
+        private void menuTrangChu_Click(object sender, EventArgs e)
+        {
+            TrangChu f = new TrangChu();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void menuKhachHang_Click(object sender, EventArgs e)
+        {
+            KhachHang f = new KhachHang();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void menuNhanVien_Click(object sender, EventArgs e)
+        {
+            NhanVien f = new NhanVien();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void menuHuongDan_Click(object sender, EventArgs e)
+        {
+            HuongDan f = new HuongDan();
+            f.ShowDialog();
+        }
+
+
 
         private void btnView_MH_Click(object sender, EventArgs e)
         {
@@ -50,8 +81,7 @@ namespace bai6quanlysieuthi
             txtMaNCC.Text = dgvMatHang.CurrentRow.Cells[5].Value.ToString();
             txtGiaMh.Text = dgvMatHang.CurrentRow.Cells[6].Value.ToString();
         }
-        #endregion
-        #region thêm mặt hàng
+
         private void btnInsert_MH_Click(object sender, EventArgs e)
         {
             if (txtMaHang.Text == "" || txtTenHang.Text == "" || cbDonViTinh.Text == "" || cbLoai.Text == "" || txtGiaMh.Text == "" || cbMaQuay.Text == "" || txtMaNCC.Text == "")
@@ -106,7 +136,7 @@ namespace bai6quanlysieuthi
                 return;
             }
         }
-        #endregion
+
         private void btnDelete_MH_Click(object sender, EventArgs e)
         {
             if (txtMaHang.Text == "")
