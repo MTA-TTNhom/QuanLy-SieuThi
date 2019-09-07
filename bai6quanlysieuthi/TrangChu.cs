@@ -33,6 +33,12 @@ namespace bai6quanlysieuthi
             this.Close();
         }
 
-
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            NhanVien f = new NhanVien();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }
