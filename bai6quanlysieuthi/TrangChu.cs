@@ -16,5 +16,23 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
+
+        private void btnkhachhang_Click(object sender, EventArgs e)
+        {
+            KhachHang f = new KhachHang();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void btnHangHoa_Click(object sender, EventArgs e)
+        {
+            HangHoa f = new HangHoa();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+
     }
 }
