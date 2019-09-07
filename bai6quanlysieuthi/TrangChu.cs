@@ -78,5 +78,20 @@ namespace bai6quanlysieuthi
             f.ShowDialog();
             this.Close();
         }
+
+        private void menuNhanVien_Click(object sender, EventArgs e)
+        {
+            NhanVien f = new NhanVien();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void menuHuongDan_Click(object sender, EventArgs e)
+        {
+            HuongDan f = new HuongDan();
+            f.ShowDialog();
+        }
+        #endregion
     }
 }
