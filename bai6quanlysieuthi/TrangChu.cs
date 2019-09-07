@@ -60,5 +60,23 @@ namespace bai6quanlysieuthi
             this.Close();
         }
 #endregion
+
+        #region menustrip
+
+        private void menuKhachHang_Click(object sender, EventArgs e)
+        {
+            KhachHang f = new KhachHang();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+
+        private void menuHangHoa_Click(object sender, EventArgs e)
+        {
+            HangHoa f = new HangHoa();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
     }
 }
