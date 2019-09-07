@@ -40,5 +40,25 @@ namespace bai6quanlysieuthi
             f.ShowDialog();
             this.Close();
         }
+
+        private void btnHuongDan_Click(object sender, EventArgs e)
+        {
+            HuongDan f = new HuongDan();
+            f.ShowDialog();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnDangNhap_Click(object sender, EventArgs e)
+        {
+            login f = new login();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
+#endregion
     }
 }
