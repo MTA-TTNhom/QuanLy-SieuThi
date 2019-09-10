@@ -49,6 +49,20 @@
   <ItemGroup>
     <Compile Include="Bus\DataProvider.cs" />
     <Compile Include="Models\chitiethoadon.cs" />
+    <Compile Include="Models\chitietphieugiaoca.cs" />
+    <Compile Include="Models\chitietphieuxuat.cs" />
+    <Compile Include="Models\chucvu.cs" />
+    <Compile Include="Models\hoadon.cs" />
+    <Compile Include="Models\khachhang.cs" />
+    <Compile Include="Models\khohang.cs" />
+    <Compile Include="Models\mathang.cs" />
+    <Compile Include="Models\nhacungcap.cs" />
+    <Compile Include="Models\nhanvien.cs" />
+    <Compile Include="Models\phieugiaoca.cs" />
+    <Compile Include="Models\phieuxuatkho.cs" />
+    <Compile Include="Models\qlsieuthiModels.cs" />
+    <Compile Include="Models\quayhang.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
     <Compile Include="Views\ChiTiet_HD.cs">
       <SubType>Form</SubType>
     </Compile>
