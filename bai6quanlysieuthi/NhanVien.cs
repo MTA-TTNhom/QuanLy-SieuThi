@@ -91,35 +91,182 @@ namespace bai6quanlysieuthi.Views
         }
         #endregion
 
-#region thêm nhân viên
+        #region thêm nhân viên
         private void btnInsert_NV_Click(object sender, EventArgs e)
         {
+            if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
+            {
+                if (txtMa.Text == "")
+                    errorProvider1.SetError(txtMa, "Chưa có dữ liệu");
+                if (txtTen.Text == "")
+                    errorProvider1.SetError(txtTen, "Chưa có dữ liệu");
+                if (txtDiaChi.Text == "")
+                    errorProvider1.SetError(txtDiaChi, "Chưa có dữ liệu");
+                if (txtSoDienThoai.Text == "")
+                    errorProvider1.SetError(txtSoDienThoai, "Chưa có dữ liệu");
+                if (cbMaChucVu.Text == "")
+                    errorProvider1.SetError(cbMaChucVu, "Chưa có dữ liệu");
+                if (txtTaiKhoan.Text == "")
+                    errorProvider1.SetError(txtTaiKhoan, "Chưa có dữ liệu");
+                if (txtMatKhau.Text == "")
+                    errorProvider1.SetError(txtMatKhau, "Chưa có dữ liệu");
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            try
+            {
+                string ma = txtMa.Text;
+                string ten = txtTen.Text;
+                string sdt = txtSoDienThoai.Text;
+                string mcv = cbMaChucVu.Text;
+                DateTime ngaysinh = (DateTime)Convert.ToDateTime(dtpNgaySinh.Value.ToString("MM/dd/yyyy"));
+                string diachi = txtDiaChi.Text;
+                string tk = txtTaiKhoan.Text;
+                string mk = txtMatKhau.Text;
+                if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
+                {
+                    MessageBox.Show("Phải điền đủ thông tin");
+                    return;
+                }
+
+                if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    if (NhanVienController.Instance.InsertNhanVien(ma, ten, ngaysinh, diachi, sdt, mcv, tk, mk))
+                    {
+                        MessageBox.Show("Thêm thành công!");
+                        ViewNhanVien();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Không thành công");
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi thêm dữ liệu");
+                return;
+            }
 
         }
         #endregion
-#region   sửa nhân viên
+        #region   sửa nhân viên
         private void btnUpdate_NV_Click(object sender, EventArgs e)
         {
-            
+            if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
+            {
+                if (txtMa.Text == "")
+                    errorProvider1.SetError(txtMa, "Chưa có dữ liệu");
+                if (txtTen.Text == "")
+                    errorProvider1.SetError(txtTen, "Chưa có dữ liệu");
+                if (txtDiaChi.Text == "")
+                    errorProvider1.SetError(txtDiaChi, "Chưa có dữ liệu");
+                if (txtSoDienThoai.Text == "")
+                    errorProvider1.SetError(txtSoDienThoai, "Chưa có dữ liệu");
+                if (cbMaChucVu.Text == "")
+                    errorProvider1.SetError(cbMaChucVu, "Chưa có dữ liệu");
+                if (txtTaiKhoan.Text == "")
+                    errorProvider1.SetError(txtTaiKhoan, "Chưa có dữ liệu");
+                if (txtMatKhau.Text == "")
+                    errorProvider1.SetError(txtMatKhau, "Chưa có dữ liệu");
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            try
+            {
+                string ma = txtMa.Text;
+                string ten = txtTen.Text;
+                string sdt = txtSoDienThoai.Text;
+                string mcv = cbMaChucVu.Text;
+                DateTime ngaysinh = (DateTime)Convert.ToDateTime(dtpNgaySinh.Value.ToString("MM/dd/yyyy"));
+                string diachi = txtDiaChi.Text;
+                string tk = txtTaiKhoan.Text;
+                string mk = txtMatKhau.Text;
+                if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
+                {
+                    MessageBox.Show("Phải điền đủ thông tin");
+                    return;
+                }
+
+                if (MessageBox.Show("Bạn có muốn sửa hay không", "Sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    if (NhanVienController.Instance.UpdateNhanVien(ma, ten, ngaysinh, diachi, sdt, mcv, tk, mk))
+                    {
+                        MessageBox.Show("Sửa thành công!");
+                        ViewNhanVien();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không thành công");
+                    }
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi sửa dữ liệu");
+                return;
+            }
         }
         #endregion
-#region xóa nhân viên
+        #region xóa nhân viên
         private void btnDelete_NV_Click(object sender, EventArgs e)
         {
-            
+            errorProvider1.Clear();
+            if (txtMa.Text == "")
+            {
+                errorProvider1.SetError(txtMa, "Nhập vào mã");
+                MessageBox.Show("Không có mã");
+                return;
+            }
+            string ma = txtMa.Text;
+            if (NhanVienController.Instance.DeleteNhanVien(ma))
+            {
+                if (MessageBox.Show("Bạn có muốn xóa hay không", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+
+                    MessageBox.Show("Xóa thành công!");
+                    ViewNhanVien();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không thành công!");
+            }
         }
-#endregion
+        #endregion
 
         private void btnExit_NV_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
         }
 #region
         private void btnSearch_NV_Click(object sender, EventArgs e)
         {
             
         }
-#endregion
+        #endregion
+        private void btnSearch_NV_Click(object sender, EventArgs e)
+        {
+            if (cbSearch.Text == @"Mã nhân viên")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
+                }
+            }
+            else if (cbSearch.Text == @"Số điện thoại")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
+                }
+            }
+        }
         #endregion
 
         #region phiếu giao ca
