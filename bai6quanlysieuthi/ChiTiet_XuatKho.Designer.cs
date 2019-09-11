@@ -28,30 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.cbMaMatHang = new System.Windows.Forms.ComboBox();
-            this.cbMaXuat = new System.Windows.Forms.ComboBox();
-            this.txtDonGia = new System.Windows.Forms.TextBox();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.txtSTT = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnSearch_CTXK = new System.Windows.Forms.Button();
-            this.dgvCtXuatKho = new System.Windows.Forms.DataGridView();
-            this.btnExit_CTXK = new System.Windows.Forms.Button();
-            this.btnDelete_CTXK = new System.Windows.Forms.Button();
-            this.btnUpdate_CTXK = new System.Windows.Forms.Button();
-            this.btnInsert_CTXK = new System.Windows.Forms.Button();
-            this.btnView_CTXK = new System.Windows.Forms.Button();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCtXuatKho)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            this.SuspendLayout();
+            
             // 
             // panel2
             // 
