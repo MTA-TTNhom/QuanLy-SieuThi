@@ -20,22 +20,32 @@ namespace bai6quanlysieuthi.Views
 #region menu Nhân viên
         private void menuTrangChu_Click(object sender, EventArgs e)
         {
-            
+            TrangChu f = new TrangChu();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
         }
 
         private void menuKhachHang_Click(object sender, EventArgs e)
         {
-            
+            KhachHang f = new KhachHang();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
         }
 
         private void menuHangHoa_Click(object sender, EventArgs e)
         {
-         
+            HangHoa f = new HangHoa();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
         }
 
         private void hướngDấnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-  
+            HuongDan f = new HuongDan();
+            f.ShowDialog();
         }
         #endregion
 
