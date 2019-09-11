@@ -151,6 +151,23 @@ namespace bai6quanlysieuthi
 
             }
         }
+        private void btnDeleteKh_Click(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+            string ma = txtMakh.Text;
+            if (MessageBox.Show("Bạn có muốn xóa hay không", "Xóa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+            {
+                if (KhachhangController.Instance.DeleteKhachHang(ma))
+                {
+                    MessageBox.Show("Xóa thành công!");
+                    ViewKhachHang();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không thành công!");
+            }
+        }
         private void btnSearchKh_Click(object sender, EventArgs e)
         {
             if (cmbSearchKh.Text == @"Mã khách hàng")
@@ -167,6 +184,10 @@ namespace bai6quanlysieuthi
                     dgvKh.DataSource = KhachhangController.Instance.SearchKh1(txtSearchKh.Text);
                 }
             }
+        }
+        private void btnExitKH_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
