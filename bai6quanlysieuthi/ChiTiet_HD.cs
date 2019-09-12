@@ -159,5 +159,35 @@ namespace bai6quanlysieuthi
                 txtDonGia.Text = dgvCtHoaDon.CurrentRow.Cells[4].Value.ToString();
             }
         }
+
+        private void btnInsert_CTHD_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaHoaDon_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
