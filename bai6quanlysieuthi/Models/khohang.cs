@@ -36,6 +36,19 @@
             this.diachi = diachi;
         }
 
-        
+        public khohang(DataRow row)
+        {
+            this.ma = row["ma"].ToString();
+            this.ten = row["ten"].ToString();
+            this.diachi = row["diachi"].ToString();
+        }
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<phieukiemke> phieukiemkes { get; set; }
+
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<phieunhapkho> phieunhapkhoes { get; set; }
+
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        //public virtual ICollection<phieuxuatkho> phieuxuatkhoes { get; set; }
     }
 }
