@@ -1,0 +1,173 @@
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.dll
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_NhapKho.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.Cache
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+E:\3tailieu\thuctapnhom\bai6_quanlysieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojResolveAssemblyReference.cache
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.dll
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojResolveAssemblyReference.cache
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.Cache
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+E:\3tailieu\thuctapnhom\quanlybanhangsieuthi\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojAssemblyReference.cache
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.cache
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CoreCompileInputs.cache
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CopyComplete
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+G:\GitHub\quanlybanhangsieuthi\bai6quanlysieuthi\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojAssemblyReference.cache
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.cache
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CoreCompileInputs.cache
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CopyComplete
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+G:\GitHub\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojResolveAssemblyReference.cache
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.Cache
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+H:\HOCTAP\ky1_nam4\Github\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojAssemblyReference.cache
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.cache
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CoreCompileInputs.cache
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CopyComplete
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+D:\Nam 4\ky1\ThucTapNhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe.config
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.exe
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\bai6quanlysieuthi.pdb
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.dll
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.xml
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.pdb
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Core.dll.config
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\bin\Debug\Geckofx-Winforms.pdb
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csprojAssemblyReference.cache
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_HD.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.ChiTiet_XuatKho.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.login.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Properties.Resources.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HangHoa.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.HuongDan.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.NhanVien.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.Views.TrangChu.resources
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.GenerateResource.cache
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.csproj.CopyComplete
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.exe
+C:\Users\Dkyuuby\Desktop\ttnhom\BanHangQL\banhangquanly\bai6quanlysieuthi\obj\Debug\bai6quanlysieuthi.pdb
