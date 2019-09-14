@@ -60,5 +60,10 @@ namespace bai6quanlysieuthi
             if (e.KeyCode == Keys.Enter)
                 btnDangNhap.Focus();
         }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
