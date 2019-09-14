@@ -24,18 +24,41 @@
 
         public float tonggiatri { get; set; }
 
-       
+        [StringLength(20)]
+        public string makhohang { get; set; }
 
-        public phieuxuatkho(string ma,  DateTime ngayxuat, float tonggiatri, )
+        [StringLength(20)]
+        public string manhanvien { get; set; }
+
+        [StringLength(20)]
+        public string maquay { get; set; }
+
+        public phieuxuatkho(string ma, string makhohang, DateTime ngayxuat, float tonggiatri, string maquay, string manhanvien)
         {
             this.ma = ma;
-           
+            this.makhohang = makhohang;
             this.ngayxuat = ngayxuat;
             this.tonggiatri = tonggiatri;
-           
+            this.maquay = maquay;
+            this.manhanvien = manhanvien;
         }
 
-       
+        public phieuxuatkho(DataRow row)
+        {
+            this.ma = row["ma"].ToString();
+            this.makhohang = row["makhohang"].ToString();
+            this.ngayxuat = (DateTime)row["ngayxuat"];
+            try
+            {
+                this.tonggiatri = (float)Convert.ToDouble(row["tonggiatri"].ToString());
+            }
+            catch
+            {
+
+            }
+            this.maquay = row["maquay"].ToString();
+            this.manhanvien = row["manhanvien"].ToString();
+        }
         //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         //public virtual ICollection<chitietphieuxuat> chitietphieuxuats { get; set; }
 
