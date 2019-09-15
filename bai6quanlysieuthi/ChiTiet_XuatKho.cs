@@ -194,4 +194,14 @@ namespace bai6quanlysieuthi
                 txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
             }
         }
-}
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ChiTiet_XuatKho_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
