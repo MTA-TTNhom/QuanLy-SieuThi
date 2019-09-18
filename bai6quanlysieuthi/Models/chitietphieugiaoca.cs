@@ -1,6 +1,5 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
-
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -8,11 +7,9 @@
     using System.Data;
     using System.Data.Entity.Spatial;
 
-
     [Table("chitietphieugiaoca")]
     public partial class chitietphieugiaoca
     {
-
         [Key]
         public int stt { get; set; }
 
@@ -24,7 +21,7 @@
 
         public int soluong { get; set; }
 
-        public chitietphieugiaoca(int stt, string magc, string mamh, int sl)
+        public chitietphieugiaoca(int stt,string magc,string mamh,int sl)
         {
             this.stt = stt;
             this.magiaoca = magc;
