@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -15,6 +15,29 @@
         //    khachmuahangs = new HashSet<khachmuahang>();
         //}
 
+        [Key]
+        [StringLength(20)]
+        public string ma { get; set; }
+
+        [Required]
+        [StringLength(50)]
+        public string ten { get; set; }
+
+        [StringLength(200)]
+        public string diachi { get; set; }
+
+        [StringLength(15)]
+        public string sodienthoai { get; set; }
+
+        public float uudai { get; set; }
+
+        public khachhang(string ma, string ten, string diachi, string sodienthoai, float uudai)
+        {
+            this.ma = ma;
+            this.ten = ten;
+            this.diachi = diachi;
+            this.sodienthoai = sodienthoai;
+            this.uudai = uudai;
         }
 
         public khachhang(DataRow row)

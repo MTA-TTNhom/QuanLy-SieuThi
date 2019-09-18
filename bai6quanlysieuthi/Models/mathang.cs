@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -41,7 +41,7 @@
         public string manhacc { get; set; }
 
         public float gia { get; set; }
-        public mathang(string ma, string ten, string loaimathang, string donvitinh, string maquay, string nhacc, float gia)
+        public mathang(string ma, string ten, string loaimathang, string donvitinh, string maquay,string nhacc,float gia)
         {
             this.ma = ma;
             this.ten = ten;
