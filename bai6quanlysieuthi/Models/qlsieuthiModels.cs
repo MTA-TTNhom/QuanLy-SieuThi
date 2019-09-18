@@ -17,20 +17,7 @@
         public virtual DbSet<chitietphieuxuat> chitietphieuxuats { get; set; }
         public virtual DbSet<chucvu> chucvus { get; set; }
         public virtual DbSet<hoadon> hoadons { get; set; }
-        public virtual DbSet<khachhang> khachhangs { get; set; }
-        public virtual DbSet<khohang> khohangs { get; set; }
-        public virtual DbSet<mathang> mathangs { get; set; }
-        public virtual DbSet<nhacungcap> nhacungcaps { get; set; }
-        public virtual DbSet<nhanvien> nhanviens { get; set; }
-        public virtual DbSet<phieugiaoca> phieugiaocas { get; set; }
-        public virtual DbSet<phieuxuatkho> phieuxuatkhoes { get; set; }
-        public virtual DbSet<quayhang> quayhangs { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            //modelBuilder.Entity<chucvu>()
-            //    .HasMany(e => e.nhanviens)
+        public virtual Db
             //    .WithOptional(e => e.chucvu)
             //    .HasForeignKey(e => e.machucvu);
 
