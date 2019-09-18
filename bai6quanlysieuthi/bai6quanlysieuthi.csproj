@@ -8,11 +8,9 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>bai6quanlysieuthi</RootNamespace>
     <AssemblyName>bai6quanlysieuthi</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,8 +32,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Core">
+      <HintPath>..\..\..\..\LK_web\Geckofx-Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Geckofx-Winforms">
+      <HintPath>..\..\..\..\LK_web\Geckofx-Winforms.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,21 +65,15 @@
     <Compile Include="Controller\CtHoaDonController.cs" />
     <Compile Include="Controller\CtXuatKhoController.cs" />
     <Compile Include="Controller\DangNhapController.cs" />
-    <Compile Include="Models\chitiethoadon.cs" />
-    <Compile Include="Models\chitietphieugiaoca.cs" />
-    <Compile Include="Models\chitietphieuxuat.cs" />
-    <Compile Include="Models\chucvu.cs" />
-    <Compile Include="Models\hoadon.cs" />
-    <Compile Include="Models\khachhang.cs" />
-    <Compile Include="Models\khohang.cs" />
-    <Compile Include="Models\mathang.cs" />
-    <Compile Include="Models\nhacungcap.cs" />
-    <Compile Include="Models\nhanvien.cs" />
-    <Compile Include="Models\phieugiaoca.cs" />
-    <Compile Include="Models\phieuxuatkho.cs" />
-    <Compile Include="Models\qlsieuthiModels.cs" />
-    <Compile Include="Models\quayhang.cs" />
-    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Controller\GiaoCaController.cs" />
+    <Compile Include="Controller\HoaDonController.cs" />
+    <Compile Include="Controller\KhachhangController.cs" />
+    <Compile Include="Controller\KhoHangController.cs" />
+    <Compile Include="Controller\MatHangController.cs" />
+    <Compile Include="Controller\NhaCCController.cs" />
+    <Compile Include="Controller\NhanVienController.cs" />
+    <Compile Include="Controller\QuayHangController.cs" />
+    <Compile Include="Controller\XuatKhoController.cs" />
     <Compile Include="Views\ChiTiet_HD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +98,23 @@
     <Compile Include="Views\HangHoa.Designer.cs">
       <DependentUpon>HangHoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\chitiethoadon.cs" />
+    <Compile Include="Models\chitietphieugiaoca.cs" />
+    <Compile Include="Models\chitietphieuxuat.cs" />
+    <Compile Include="Models\chucvu.cs" />
+    <Compile Include="Models\hoadon.cs" />
+    <Compile Include="Models\khachhang.cs" />
+    <Compile Include="Models\khohang.cs" />
+    <Compile Include="Models\mathang.cs" />
+    <Compile Include="Models\nhacungcap.cs" />
+    <Compile Include="Models\nhanvien.cs" />
+    <Compile Include="Models\phieugiaoca.cs" />
+    <Compile Include="Models\phieuxuatkho.cs" />
+    <Compile Include="Models\qlsieuthiModels.cs" />
+    <Compile Include="Models\quayhang.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\HuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,8 +133,6 @@
     <Compile Include="Views\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,21 +148,6 @@
     <EmbeddedResource Include="Views\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="HangHoa.resx">
-      <DependentUpon>HangHoa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KhachHang.resx">
-
-    <EmbeddedResource Include="Views\KhachHang.resx">
-
-    <EmbeddedResource Include="Views\KhachHang.resx">
-
-      <DependentUpon>KhachHang.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NhanVien.resx">
-      <DependentUpon>NhanVien.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -150,9 +157,22 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\HangHoa.resx">
+      <DependentUpon>HangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HuongDan.resx">
+      <DependentUpon>HuongDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -166,5 +186,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

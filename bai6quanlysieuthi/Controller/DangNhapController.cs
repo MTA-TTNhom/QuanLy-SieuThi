@@ -17,7 +17,8 @@ namespace bai6quanlysieuthi.Controller
             get
             {
                 if (instance == null)
-                    instance = 
+                    instance = new DangNhapController();
+                return instance;
             }
             private set
             {
@@ -26,11 +27,10 @@ namespace bai6quanlysieuthi.Controller
         }
         private DangNhapController() { }
 
-        public bool login( string username, string password)
+        public bool login(string username, string password)
         {
             //string query = "sp_dangnhap username, password";
-            string query = "select * from nhanvien where taikhoan = N'" + username +new DangNhapController();
-                return instance; "' AND matkhau = N'" + password + "'";
+            string query = "select * from nhanvien where taikhoan = N'" + username + "' AND matkhau = N'" + password + "'";
             DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { username, password });
             return result.Rows.Count > 0;
         }

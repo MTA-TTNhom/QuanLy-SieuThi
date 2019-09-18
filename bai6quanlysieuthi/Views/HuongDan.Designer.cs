@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi
+﻿namespace bai6quanlysieuthi.Views
 {
     partial class HuongDan
     {
@@ -70,7 +70,7 @@
             treeNode5});
             this.treeView1.Size = new System.Drawing.Size(151, 487);
             this.treeView1.TabIndex = 1;
-
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // HuongDan
             // 
