@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
