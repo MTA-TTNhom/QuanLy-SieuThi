@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using bai6quanlysieuthi.Controller;
 
-namespace bai6quanlysieuthi
+namespace bai6quanlysieuthi.Views
 {
     public partial class ChiTiet_XuatKho : Form
     {
@@ -16,7 +17,6 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
-
 #region View chi tiết xuất kho
         private void btnView_CTXK_Click(object sender, EventArgs e)
         {
@@ -36,7 +36,7 @@ namespace bai6quanlysieuthi
             dgvCtXuatKho.Columns["dongia"].HeaderText = @"Đơng giá";
             dgvCtXuatKho.Columns["dongia"].Width = 80;
         }
-
+        #endregion
 #region thêm chi tiết phiếu xuất kho
         private void btnInsert_CTXK_Click(object sender, EventArgs e)
         {
@@ -60,7 +60,7 @@ namespace bai6quanlysieuthi
                 int sl = (int)Convert.ToInt32(txtSoLuong.Text);
                 if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (CtXuatKhoController.Instance.InsertCtXuat(cbMaXuat.Text, cbMaMatHang.Text, sl))
+                    if (CtXuatKhoController.Instance.InsertCtXuat(cbMaXuat.Text,cbMaMatHang.Text, sl))
                     {
                         MessageBox.Show("Thêm thành công");
                         ViewCtXuatKho();
@@ -82,7 +82,7 @@ namespace bai6quanlysieuthi
 #region sửa chi tiết phiết xuất
         private void btnUpdate_CTXK_Click(object sender, EventArgs e)
         {
-            if (txtSTT.Text == "" || cbMaXuat.Text == "" || cbMaMatHang.Text == "" || txtSoLuong.Text == "")
+            if (txtSTT.Text==""||cbMaXuat.Text == "" || cbMaMatHang.Text == "" || txtSoLuong.Text == "")
             {
                 if (txtSTT.Text == "")
                     errorProvider1.SetError(txtSTT, "Chưa có stt cần sửa");
@@ -105,7 +105,7 @@ namespace bai6quanlysieuthi
                 int sl = (int)Convert.ToInt32(txtSoLuong.Text);
                 if (MessageBox.Show("Bạn có muốn sửa hay không", "sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (CtXuatKhoController.Instance.UpdateCtXuat(stt, cbMaXuat.Text, cbMaMatHang.Text, sl))
+                    if (CtXuatKhoController.Instance.UpdateCtXuat(stt,cbMaXuat.Text, cbMaMatHang.Text, sl))
                     {
                         MessageBox.Show("Sửa thành công");
                         ViewCtXuatKho();
@@ -123,8 +123,7 @@ namespace bai6quanlysieuthi
             }
 
         }
-        #endregion
-
+#endregion
         private void btnDelete_CTXK_Click(object sender, EventArgs e)
         {
             if (txtSTT.Text == "")
@@ -158,53 +157,13 @@ namespace bai6quanlysieuthi
                 MessageBox.Show("Lỗi dữ liệu");
                 return;
             }
-
-            private void btnExit_CTXK_Click(object sender, EventArgs e)
-            {
-                this.Close();
-            }
-            #region tìm chi tiết phiếu xuất
-            private void btnSearch_CTXK_Click(object sender, EventArgs e)
-            {
-                if (cbMaMatHang.Text == "" && cbMaXuat.Text == "")
-                {
-                    if (cbMaMatHang.Text == "")
-                        errorProvider1.SetError(cbMaMatHang, "Chưa có mã hàng cần tìm");
-                    if (cbMaXuat.Text == "")
-                        errorProvider1.SetError(cbMaXuat, "Chưa có mã xuất cần tìm");
-                    MessageBox.Show("Phải nhập vào thông tìn cần tìm");
-                    return;
-                }
-                else
-                {
-                    errorProvider1.Clear();
-                }
-                if (cbMaXuat.Text != "" || cbMaMatHang.Text != "")
-                {
-                    dgvCtXuatKho.DataSource = CtXuatKhoController.Instance.SearchCtXuat(cbMaXuat.Text, cbMaMatHang.Text);
-                }
-            }
-            #endregion
-            private void dgvCtXuatKho_CellClick(object sender, DataGridViewCellEventArgs e)
-            {
-                txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
-                cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
-                cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
-                txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
-                txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
-            }
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void btnExit_CTXK_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
-
-        private void ChiTiet_XuatKho_Load(object sender, EventArgs e)
-        {
-
-        }
-
+#region tìm chi tiết phiếu xuất
         private void btnSearch_CTXK_Click(object sender, EventArgs e)
         {
             if (cbMaMatHang.Text == "" && cbMaXuat.Text == "")
@@ -225,4 +184,14 @@ namespace bai6quanlysieuthi
                 dgvCtXuatKho.DataSource = CtXuatKhoController.Instance.SearchCtXuat(cbMaXuat.Text, cbMaMatHang.Text);
             }
         }
+#endregion
+        private void dgvCtXuatKho_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
+        }
     }
+}

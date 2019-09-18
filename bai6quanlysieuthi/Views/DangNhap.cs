@@ -7,17 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using bai6quanlysieuthi.Bus;
+using bai6quanlysieuthi.Controller;
+using bai6quanlysieuthi.Views;
 
 namespace bai6quanlysieuthi
 {
-    public partial class DangNhap : Form
+    public partial class login : Form
     {
-        public DangNhap()
+        public login()
         {
             InitializeComponent();
         }
 
-        private void btnDangNhap_Click(object sender, EventArgs e)
+        private void btbDangNhap_Click(object sender, EventArgs e)
         {
             string username = txtTaiKhoan.Text;
             string password = txtMatKhau.Text;
@@ -33,6 +36,7 @@ namespace bai6quanlysieuthi
                 MessageBox.Show("Sai tên khoài khoản hoặc mật khẩu!");
             }
         }
+
         bool DangNhap(string userName, string passWord)
         {
             return DangNhapController.Instance.login(userName, passWord);
@@ -54,20 +58,17 @@ namespace bai6quanlysieuthi
                 txtMatKhau.UseSystemPasswordChar = true;
             }
         }
+
         private void txtTaiKhoan_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
                 txtMatKhau.Focus();
         }
+
         private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
                 btnDangNhap.Focus();
-        }
-
-        private void txtMatKhau_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
