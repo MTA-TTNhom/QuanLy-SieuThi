@@ -93,5 +93,37 @@ namespace bai6quanlysieuthi
             f.ShowDialog();
         }
         #endregion
+
+        private void btnHuongDan_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnkhachhang_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHangHoa_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNhanVien_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TrangChu_Load(object sender, EventArgs e)
+        {
+            TrangChu a = new TrangChu();
+            Hide();
+            a.Show();
+        }
     }
 }
