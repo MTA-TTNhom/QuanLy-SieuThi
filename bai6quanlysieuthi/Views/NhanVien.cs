@@ -11,7 +11,7 @@ using bai6quanlysieuthi.Controller;
 
 namespace bai6quanlysieuthi.Views
 {
-    public partial class NhanVien: Form
+    public partial class NhanVien : Form
     {
         public NhanVien()
         {
@@ -55,7 +55,6 @@ namespace bai6quanlysieuthi.Views
         {
             errorProvider1.Clear();
             ViewNhanVien();
-
         }
         void ViewNhanVien()
         {
@@ -91,7 +90,7 @@ namespace bai6quanlysieuthi.Views
         }
         #endregion
 
-        #region thêm nhân viên
+#region thêm nhân viên
         private void btnInsert_NV_Click(object sender, EventArgs e)
         {
             if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
@@ -125,7 +124,7 @@ namespace bai6quanlysieuthi.Views
                 string diachi = txtDiaChi.Text;
                 string tk = txtTaiKhoan.Text;
                 string mk = txtMatKhau.Text;
-                if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
+                if(txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
                 {
                     MessageBox.Show("Phải điền đủ thông tin");
                     return;
@@ -133,27 +132,26 @@ namespace bai6quanlysieuthi.Views
 
                 if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (NhanVienController.Instance.InsertNhanVien(ma, ten, ngaysinh, diachi, sdt, mcv, tk, mk))
-                    {
-                        MessageBox.Show("Thêm thành công!");
-                        ViewNhanVien();
-                    }
+                        if (NhanVienController.Instance.InsertNhanVien(ma, ten, ngaysinh, diachi, sdt, mcv, tk, mk))
+                        {
+                            MessageBox.Show("Thêm thành công!");
+                            ViewNhanVien();
+                        }
                 }
                 else
                 {
                     MessageBox.Show("Không thành công");
                 }
-
+             
             }
-            catch
-            {
+            catch {
                 MessageBox.Show("Lỗi thêm dữ liệu");
                 return;
             }
 
         }
         #endregion
-        #region   sửa nhân viên
+#region   sửa nhân viên
         private void btnUpdate_NV_Click(object sender, EventArgs e)
         {
             if (txtMa.Text == "" || txtTen.Text == "" || txtDiaChi.Text == "" || txtSoDienThoai.Text == "" || cbMaChucVu.Text == "" || txtTaiKhoan.Text == "" || txtMatKhau.Text == "")
@@ -192,9 +190,9 @@ namespace bai6quanlysieuthi.Views
                     MessageBox.Show("Phải điền đủ thông tin");
                     return;
                 }
-
-                if (MessageBox.Show("Bạn có muốn sửa hay không", "Sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-                {
+                
+                    if (MessageBox.Show("Bạn có muốn sửa hay không", "Sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                    {
                     if (NhanVienController.Instance.UpdateNhanVien(ma, ten, ngaysinh, diachi, sdt, mcv, tk, mk))
                     {
                         MessageBox.Show("Sửa thành công!");
@@ -213,7 +211,7 @@ namespace bai6quanlysieuthi.Views
             }
         }
         #endregion
-        #region xóa nhân viên
+#region xóa nhân viên
         private void btnDelete_NV_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -238,7 +236,7 @@ namespace bai6quanlysieuthi.Views
                 MessageBox.Show("Không thành công!");
             }
         }
-        #endregion
+#endregion
 
         private void btnExit_NV_Click(object sender, EventArgs e)
         {
@@ -247,43 +245,22 @@ namespace bai6quanlysieuthi.Views
 #region
         private void btnSearch_NV_Click(object sender, EventArgs e)
         {
-            
-        }
-        #endregion
-        private void btnSearch_NV_Click(object sender, EventArgs e)
-        {
-            if (cbSearch.Text == @"Mã nhân viên")
+            if(cbSearch.Text== @"Mã nhân viên")
             {
-                if (txtSearch.Text != "")
+                if (txtSearch.Text !="")
                 {
                     dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
                 }
             }
-            else if (cbSearch.Text == @"Số điện thoại")
+            else if(cbSearch.Text== @"Số điện thoại")
             {
-                if (txtSearch.Text != "")
+                if (txtSearch.Text!="")
                 {
                     dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
                 }
             }
         }
-        private void btnSearch_NV_Click_1(object sender, EventArgs e)
-        {
-            if (cbSearch.Text == @"Mã nhân viên")
-            {
-                if (txtSearch.Text != "")
-                {
-                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
-                }
-            }
-            else if (cbSearch.Text == @"Số điện thoại")
-            {
-                if (txtSearch.Text != "")
-                {
-                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
-                }
-            }
-        }
+#endregion
         #endregion
 
         #region phiếu giao ca
@@ -317,10 +294,10 @@ namespace bai6quanlysieuthi.Views
             txtMaNhanVienGc.Text = dgvPhieuGC.CurrentRow.Cells[4].Value.ToString();
         }
         #endregion
-        #region theem phiếu giao ca
+#region theem phiếu giao ca
         private void btnInsert_PGC_Click(object sender, EventArgs e)
         {
-            if (txtMaGC.Text == "" || cbCaGc.Text == "" || txtMaNhanVienGc.Text == "" || txtMaQuayGC.Text == "")
+            if(txtMaGC.Text==""||cbCaGc.Text==""|| txtMaNhanVienGc.Text == "" || txtMaQuayGC.Text == "")
             {
                 if (txtMaGC.Text == "")
                     errorProvider1.SetError(txtMaGC, "Chưa nhập mã giao ca");
@@ -341,16 +318,16 @@ namespace bai6quanlysieuthi.Views
             {
                 string ma = txtMaGC.Text;
                 DateTime ngay = (DateTime)Convert.ToDateTime(dtpNgayGC.Value.ToString("MM/dd/yyyy"));
-                int ca = 0;
-                if (cbCaGc.Text == @"Ca 1")
+                int ca=0;
+                if(cbCaGc.Text==@"Ca 1")
                 {
                     ca = 1;
                 }
-                else if (cbCaGc.Text == @"Ca 2")
+                else if(cbCaGc.Text==@"Ca 2")
                 {
                     ca = 2;
                 }
-                else if (cbCaGc.Text == @"Ca 3")
+                else if(cbCaGc.Text==@"Ca 3")
                 {
                     ca = 3;
                 }
@@ -358,10 +335,10 @@ namespace bai6quanlysieuthi.Views
                 string manhanvien = txtMaNhanVienGc.Text;
                 if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (GiaoCaController.Instance.InsertGiaoCa(ma, ngay, ca, maquay, manhanvien))
+                    if (GiaoCaController.Instance.InsertGiaoCa(ma,ngay,ca,maquay,manhanvien))
                     {
-                        MessageBox.Show("Thêm thành công!");
-                        ViewGiaoCa();
+                            MessageBox.Show("Thêm thành công!");
+                            ViewGiaoCa();
                     }
                 }
                 else
@@ -376,7 +353,7 @@ namespace bai6quanlysieuthi.Views
             }
         }
         #endregion
-        #region sửa phiếu giao ca
+#region sửa phiếu giao ca
         private void btnUpdate_PGC_Click(object sender, EventArgs e)
         {
             if (txtMaGC.Text == "" || cbCaGc.Text == "" || txtMaNhanVienGc.Text == "" || txtMaQuayGC.Text == "")
@@ -435,7 +412,7 @@ namespace bai6quanlysieuthi.Views
             }
         }
         #endregion
-        #region xóa phiếu giao ca
+#region xóa phiếu giao ca
         private void btnDelete_PGC_Click(object sender, EventArgs e)
         {
             if (txtMaGC.Text == "")
@@ -461,11 +438,10 @@ namespace bai6quanlysieuthi.Views
                 MessageBox.Show("Không thành công");
             }
         }
-        #endregion
-
+#endregion
         private void btnSearch_PGC_Click(object sender, EventArgs e)
         {
-            if (txtMaGC.Text == "" && txtMaQuayGC.Text == "" && txtMaNhanVienGc.Text == "")
+            if(txtMaGC.Text==""&& txtMaQuayGC.Text == "" && txtMaNhanVienGc.Text == "")
             {
                 if (txtMaGC.Text == "")
                     errorProvider1.SetError(txtMaGC, "Chưa có mã cần tìm");
@@ -485,17 +461,16 @@ namespace bai6quanlysieuthi.Views
             string manhanvien = txtMaNhanVienGc.Text;
             dgvPhieuGC.DataSource = GiaoCaController.Instance.SearchGiaoCa(ma, maquay, manhanvien);
         }
+
         private void btnExit_PGC_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-
-
-
         #endregion
+
         #region Chi tiết phiếu giao ca
-        #region View chi tiết phiếu giao ca
+#region View chi tiết phiếu giao ca
         private void btnView_CTPGC_Click(object sender, EventArgs e)
         {
             errorProvider1.Clear();
@@ -545,7 +520,7 @@ namespace bai6quanlysieuthi.Views
                 int sl = (int)Convert.ToInt32(txtSoLuongCgc.Text);
                 if (MessageBox.Show("Bạn có muốn thêm hay không", "Thêm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (CTGiaoCaController.Instance.InsertCtGiaoCa(maquay, mamathang, sl))
+                    if (CTGiaoCaController.Instance.InsertCtGiaoCa(maquay,mamathang,sl))
                     {
                         MessageBox.Show("Thêm thành công!");
                         ViewGiaoCa();
@@ -562,7 +537,7 @@ namespace bai6quanlysieuthi.Views
                 return;
             }
         }
-        #region sửa chi tiết giao ca
+#region sửa chi tiết giao ca
         private void btnUpdate_CTPGC_Click(object sender, EventArgs e)
         {
             if (txtMaGiaoCaCgc.Text == "" || txtMaMatHangCgc.Text == "" || txtSoLuongCgc.Text == "")
@@ -588,7 +563,7 @@ namespace bai6quanlysieuthi.Views
                 int sl = (int)Convert.ToInt32(txtSoLuongCgc.Text);
                 if (MessageBox.Show("Bạn có muốn sửa hay không", "sửa", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
-                    if (CTGiaoCaController.Instance.UpdateCtGiaoCa(stt, maquay, mamathang, sl))
+                    if (CTGiaoCaController.Instance.UpdateCtGiaoCa(stt,maquay, mamathang, sl))
                     {
                         MessageBox.Show("Sửa thành công!");
                         ViewGiaoCa();
@@ -605,7 +580,7 @@ namespace bai6quanlysieuthi.Views
                 return;
             }
         }
-        #endregion
+#endregion
         private void btnDelete_CTPGC_Click(object sender, EventArgs e)
         {
             if (txtSTTCgc.Text == "")
@@ -659,5 +634,7 @@ namespace bai6quanlysieuthi.Views
 
 
         #endregion
+
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi
+﻿namespace bai6quanlysieuthi.Views
 {
     partial class KhachHang
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KhachHang));
             this.mnsKhachHang = new System.Windows.Forms.MenuStrip();
             this.menuTrangChu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHangHoa = new System.Windows.Forms.ToolStripMenuItem();
@@ -115,24 +116,28 @@
             this.menuTrangChu.Name = "menuTrangChu";
             this.menuTrangChu.Size = new System.Drawing.Size(90, 25);
             this.menuTrangChu.Text = "Trang chủ";
+            this.menuTrangChu.Click += new System.EventHandler(this.menuTrangChu_Click);
             // 
             // menuHangHoa
             // 
             this.menuHangHoa.Name = "menuHangHoa";
             this.menuHangHoa.Size = new System.Drawing.Size(89, 25);
             this.menuHangHoa.Text = "Hàng hóa";
+            this.menuHangHoa.Click += new System.EventHandler(this.menuHangHoa_Click);
             // 
             // menuNhanVien
             // 
             this.menuNhanVien.Name = "menuNhanVien";
             this.menuNhanVien.Size = new System.Drawing.Size(93, 25);
             this.menuNhanVien.Text = "Nhân viên";
+            this.menuNhanVien.Click += new System.EventHandler(this.menuNhanVien_Click);
             // 
             // menuHuongDan
             // 
             this.menuHuongDan.Name = "menuHuongDan";
             this.menuHuongDan.Size = new System.Drawing.Size(100, 25);
             this.menuHuongDan.Text = "Hướng dấn";
+            this.menuHuongDan.Click += new System.EventHandler(this.menuHuongDan_Click);
             // 
             // tabControl1
             // 
@@ -197,7 +202,6 @@
             // btnSearchKh
             // 
             this.btnSearchKh.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnSearchKh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearchKh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearchKh.Location = new System.Drawing.Point(555, 8);
             this.btnSearchKh.Name = "btnSearchKh";
@@ -210,7 +214,6 @@
             // btnExitKH
             // 
             this.btnExitKH.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnExitKH.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExitKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExitKH.Location = new System.Drawing.Point(756, 373);
             this.btnExitKH.Name = "btnExitKH";
@@ -218,11 +221,11 @@
             this.btnExitKH.TabIndex = 7;
             this.btnExitKH.Text = "Thoát";
             this.btnExitKH.UseVisualStyleBackColor = false;
+            this.btnExitKH.Click += new System.EventHandler(this.btnExitKH_Click);
             // 
             // btnDeleteKh
             // 
             this.btnDeleteKh.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnDeleteKh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDeleteKh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteKh.Location = new System.Drawing.Point(756, 319);
             this.btnDeleteKh.Name = "btnDeleteKh";
@@ -230,11 +233,11 @@
             this.btnDeleteKh.TabIndex = 5;
             this.btnDeleteKh.Text = "Xóa";
             this.btnDeleteKh.UseVisualStyleBackColor = false;
+            this.btnDeleteKh.Click += new System.EventHandler(this.btnDeleteKh_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(756, 265);
             this.btnUpdate.Name = "btnUpdate";
@@ -242,11 +245,11 @@
             this.btnUpdate.TabIndex = 4;
             this.btnUpdate.Text = "Sửa";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnInsertKh
             // 
             this.btnInsertKh.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnInsertKh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInsertKh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertKh.Location = new System.Drawing.Point(756, 214);
             this.btnInsertKh.Name = "btnInsertKh";
@@ -254,11 +257,11 @@
             this.btnInsertKh.TabIndex = 3;
             this.btnInsertKh.Text = "Thêm";
             this.btnInsertKh.UseVisualStyleBackColor = false;
+            this.btnInsertKh.Click += new System.EventHandler(this.btnInsertKh_Click);
             // 
             // btnViewKh
             // 
             this.btnViewKh.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnViewKh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnViewKh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewKh.Location = new System.Drawing.Point(756, 160);
             this.btnViewKh.Name = "btnViewKh";
@@ -266,6 +269,7 @@
             this.btnViewKh.TabIndex = 2;
             this.btnViewKh.Text = "Xem";
             this.btnViewKh.UseVisualStyleBackColor = false;
+            this.btnViewKh.Click += new System.EventHandler(this.btnViewKh_Click);
             // 
             // dgvKh
             // 
@@ -274,6 +278,7 @@
             this.dgvKh.Name = "dgvKh";
             this.dgvKh.Size = new System.Drawing.Size(695, 220);
             this.dgvKh.TabIndex = 1;
+            this.dgvKh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKh_CellClick);
             // 
             // groupBox1
             // 
@@ -413,6 +418,7 @@
             this.btnExitHD.TabIndex = 13;
             this.btnExitHD.Text = "Thoát";
             this.btnExitHD.UseVisualStyleBackColor = false;
+            this.btnExitHD.Click += new System.EventHandler(this.btnExitHD_Click);
             // 
             // btnDeleteHD
             // 
@@ -424,6 +430,7 @@
             this.btnDeleteHD.TabIndex = 11;
             this.btnDeleteHD.Text = "Xóa";
             this.btnDeleteHD.UseVisualStyleBackColor = false;
+            this.btnDeleteHD.Click += new System.EventHandler(this.btnDeleteHD_Click);
             // 
             // btnUpdateHD
             // 
@@ -435,6 +442,7 @@
             this.btnUpdateHD.TabIndex = 10;
             this.btnUpdateHD.Text = "Sửa";
             this.btnUpdateHD.UseVisualStyleBackColor = false;
+            this.btnUpdateHD.Click += new System.EventHandler(this.btnUpdateHD_Click);
             // 
             // btnInsertHD
             // 
@@ -446,6 +454,7 @@
             this.btnInsertHD.TabIndex = 9;
             this.btnInsertHD.Text = "Thêm";
             this.btnInsertHD.UseVisualStyleBackColor = false;
+            this.btnInsertHD.Click += new System.EventHandler(this.btnInsertHD_Click);
             // 
             // btnViewHD
             // 
@@ -457,6 +466,7 @@
             this.btnViewHD.TabIndex = 8;
             this.btnViewHD.Text = "Xem";
             this.btnViewHD.UseVisualStyleBackColor = false;
+            this.btnViewHD.Click += new System.EventHandler(this.btnViewHD_Click);
             // 
             // dgvHoaDon
             // 
@@ -465,6 +475,7 @@
             this.dgvHoaDon.Name = "dgvHoaDon";
             this.dgvHoaDon.Size = new System.Drawing.Size(691, 246);
             this.dgvHoaDon.TabIndex = 2;
+            this.dgvHoaDon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHoaDon_CellClick);
             // 
             // panel2
             // 
@@ -487,6 +498,7 @@
             this.btnChiTietHD.TabIndex = 1;
             this.btnChiTietHD.Text = "Chi tiết ";
             this.btnChiTietHD.UseVisualStyleBackColor = false;
+            this.btnChiTietHD.Click += new System.EventHandler(this.btnChiTietHD_Click);
             // 
             // txtSearchHD
             // 
@@ -516,6 +528,7 @@
             this.btnSearchHD.TabIndex = 0;
             this.btnSearchHD.Text = "Tìm kiếm";
             this.btnSearchHD.UseVisualStyleBackColor = false;
+            this.btnSearchHD.Click += new System.EventHandler(this.btnSearchHD_Click);
             // 
             // groupBox2
             // 
@@ -659,7 +672,7 @@
             this.ClientSize = new System.Drawing.Size(884, 511);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.mnsKhachHang);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mnsKhachHang;
             this.Name = "KhachHang";
             this.Text = "KhachHang";

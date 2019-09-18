@@ -1,5 +1,4 @@
-﻿using bai6quanlysieuthi.Views;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using bai6quanlysieuthi.Views;
 
-namespace bai6quanlysieuthi
+namespace bai6quanlysieuthi.Views
 {
     public partial class TrangChu : Form
     {
@@ -17,7 +17,7 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
-
+        #region Button
         private void btnkhachhang_Click(object sender, EventArgs e)
         {
             KhachHang f = new KhachHang();
@@ -55,12 +55,12 @@ namespace bai6quanlysieuthi
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            DangNhap f = new DangNhap();
+            login f = new login();
             this.Hide();
             f.ShowDialog();
             this.Close();
         }
-#endregion
+        #endregion
 
         #region menustrip
 
@@ -94,85 +94,5 @@ namespace bai6quanlysieuthi
             f.ShowDialog();
         }
         #endregion
-
-        private void btnHuongDan_Click_1(object sender, EventArgs e)
-        {
-            HuongDan f = new HuongDan();
-            f.ShowDialog();
-        }
-
-        private void btnkhachhang_Click_1(object sender, EventArgs e)
-        {
-            KhachHang f = new KhachHang();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void btnHangHoa_Click_1(object sender, EventArgs e)
-        {
-            HangHoa f = new HangHoa();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void btnNhanVien_Click_1(object sender, EventArgs e)
-        {
-            NhanVien f = new NhanVien();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void btnThoat_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void TrangChu_Load(object sender, EventArgs e)
-        {
-            TrangChu a = new TrangChu();
-            Hide();
-            a.Show();
-        }
-
-        private void menuKhachHang_Click_1(object sender, EventArgs e)
-        {
-            KhachHang f = new KhachHang();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void menuHangHoa_Click_1(object sender, EventArgs e)
-        {
-            HangHoa f = new HangHoa();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void menuNhanVien_Click_1(object sender, EventArgs e)
-        {
-            NhanVien f = new NhanVien();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
-
-        private void menuHuongDan_Click_1(object sender, EventArgs e)
-        {
-            HuongDan f = new HuongDan();
-            f.ShowDialog();
-        }
-
-        private void btnDangNhap_Click_1(object sender, EventArgs e)
-        {
-            DangNhap f = new DangNhap();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
-        }
     }
 }
