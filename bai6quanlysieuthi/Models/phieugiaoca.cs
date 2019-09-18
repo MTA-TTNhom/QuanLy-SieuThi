@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -16,7 +16,21 @@
         //    chitietphieugiaocas = new HashSet<chitietphieugiaoca>();
         //}
 
-        public phieugiaoca(string ma, DateTime ngay, int ca, string maquay, string manv)
+        [Key]
+        [StringLength(20)]
+        public string ma { get; set; }
+
+        public DateTime? ngay { get; set; }
+
+        public int ca { get; set; }
+
+        [StringLength(20)]
+        public string maquay { get; set; }
+
+        [StringLength(20)]
+        public string manhanvien { get; set; }
+
+        public phieugiaoca(string ma, DateTime ngay,int ca, string maquay,string manv)
         {
             this.ma = ma;
             this.ngay = ngay;

@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -43,7 +43,7 @@
 
         public string matkhau { get; set; }
 
-        public nhanvien(string ma, string ten, DateTime ngaysinh, string diachi, string sodt, string macv, string tk, string mk)
+        public nhanvien(string ma, string ten, DateTime ngaysinh, string diachi, string sodt,string macv,string tk,string mk)
         {
             this.ma = ma;
             this.ten = ten;
