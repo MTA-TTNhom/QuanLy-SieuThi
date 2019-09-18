@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -12,6 +12,13 @@
         //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         //public chucvu()
         //{
+        //    nhanviens = new HashSet<nhanvien>();
+        //}
+
+        [Key]
+        [StringLength(20)]
+        public string ma { get; set; }
+
         [Required]
         [StringLength(50)]
         public string ten { get; set; }

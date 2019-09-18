@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -23,14 +23,14 @@
 
         public float dongia { get; set; }
 
-        public chitietphieuxuat(int stt, string maxuat, string mamh, int sl, float dongia)
+        public chitietphieuxuat(int stt, string maxuat, string mamh,int sl,float dongia)
         {
             this.stt = stt;
             this.maxuat = maxuat;
             this.mamathang = mamh;
             this.soluong = sl;
             this.dongia = dongia;
-        }
+        } 
 
         public chitietphieuxuat(DataRow row)
         {

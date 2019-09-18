@@ -1,4 +1,4 @@
-﻿namespace bai6quanlysieuthi.Models
+namespace bai6quanlysieuthi.Models
 {
     using System;
     using System.Collections.Generic;
@@ -31,15 +31,15 @@
 
         public string makhachhang { get; set; }
 
-        public hoadon(string ma, string manhanvien, float tonggiatri, float thanhtien, DateTime ngaylap, string makh)
-        {
+        public hoadon(string ma,string manhanvien, float tonggiatri,float thanhtien, DateTime ngaylap,string makh)
+        { 
             this.ma = ma;
             this.manhanvien = manhanvien;
             this.ngaylap = ngaylap;
             this.tonggiatri = tonggiatri;
             this.thanhtien = thanhtien;
             this.makhachhang = makh;
-
+            
         }
 
         public hoadon(DataRow row)
