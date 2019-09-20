@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Bus\DataProvider.cs" />
     <Compile Include="Controller\CTGiaoCaController.cs" />
+    <Compile Include="Controller\CtHoaDonController.cs" />
     <Compile Include="Models\chitiethoadon.cs" />
     <Compile Include="Models\chitietphieugiaoca.cs" />
     <Compile Include="Models\chitietphieuxuat.cs" />
