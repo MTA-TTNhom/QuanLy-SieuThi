@@ -27,7 +27,7 @@ namespace bai6quanlysieuthi.Controller
         }
         private DangNhapController() { }
 
-        public bool login(string username, string password)
+        public bool login( string username, string password)
         {
             //string query = "sp_dangnhap username, password";
             string query = "select * from nhanvien where taikhoan = N'" + username + "' AND matkhau = N'" + password + "'";

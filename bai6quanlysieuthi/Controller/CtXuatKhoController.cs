@@ -41,13 +41,13 @@ namespace bai6quanlysieuthi.Controller
         // thêm chi tiết phiếu xuất
         public bool InsertCtXuat(string maxuat, string mamathang, int sl)
         {
-            string query = string.Format("exec proc_chitietxuat N'{0}',N'{1}',{2}", maxuat, mamathang, sl);
+            string query = string.Format("exec proc_chitietxuat N'{0}',N'{1}',{2}",maxuat,mamathang,sl);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
         }
 
 
         // sửa chi tiết phiếu xuất
-        public bool UpdateCtXuat(int stt, string maxuat, string mamathang, int sl)
+        public bool UpdateCtXuat(int stt,string maxuat, string mamathang, int sl)
         {
             string query = string.Format("exec proc_dechitietxuat {0},N'{1}',N'{2}',{3}", stt, maxuat, mamathang, sl);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
@@ -59,10 +59,10 @@ namespace bai6quanlysieuthi.Controller
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
         }
         // tìm kiếm chi tiết phiếu xuất
-        public List<chitietphieuxuat> SearchCtXuat(string maxuat, string mamathang)
+        public List<chitietphieuxuat> SearchCtXuat(string maxuat , string mamathang)
         {
             List<chitietphieuxuat> list = new List<chitietphieuxuat>();
-            string query = string.Format("select * from chitietphieuxuat a where a.maxuat like N'%{0}%' and a.mamathang like N'%{1}%' ", maxuat, mamathang);
+            string query = string.Format("select * from chitietphieuxuat a where a.maxuat like N'%{0}%' and a.mamathang like N'%{1}%' ", maxuat,mamathang);
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
             foreach (DataRow i in data.Rows)
             {
