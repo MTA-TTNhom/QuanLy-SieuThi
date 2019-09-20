@@ -23,34 +23,6 @@ namespace bai6quanlysieuthi.Controller
             private set { CTGiaoCaController.instance = value; }
         }
 
-        public CTGiaoCaController() { }
-        // xem chi tiết phiếu giao ca
-        public List<chitietphieugiaoca> XemCtGiaoCa()
-        {
-            List<chitietphieugiaoca> list = new List<chitietphieugiaoca>();
-            string query = "select stt, magiaoca,mamathang,soluong from chitietphieugiaoca";
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows)
-            {
-                chitietphieugiaoca hd = new chitietphieugiaoca(item);
-                list.Add(hd);
-            }
-            return list;
-        }
-        // thêm chi tiết phiếu giao ca
-        public bool InsertCtGiaoCa(string magiaoca,string mamathang ,int soluong)
-        {
-            string query = string.Format("insert chitietphieugiaoca(magiaoca,mamathang,soluong) values(N'{0}',N'{1}',N'{2}')", magiaoca, mamathang, soluong);
-            return DataProvider.Instance.ExecuteNonQuery(query) > 0;
-        }
-        // sửa chi tiết giao ca
-        public bool UpdateCtGiaoCa(int stt, string magiaoca, string mamathang, int soluong)
-        {
-            string query = string.Format("update chitietphieugiaoca set magiaoca=N'{0}',mamathang=N'{1}',soluong={2} where stt={3}", magiaoca, mamathang, soluong, stt);
-            return DataProvider.Instance.ExecuteNonQuery(query) > 0;
-        }
-        // xóa chi tiết giao ca
-        public bool DeleteCtGiaoCa(int stt)
         {
             string query = string.Format("delete chitietphieugiaoca where stt={0}",stt);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
