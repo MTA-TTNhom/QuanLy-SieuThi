@@ -17,13 +17,7 @@ namespace bai6quanlysieuthi.Controller
             get
             {
                 if (instance == null)
-                    instance = new CtPhieuNhapController();
-                return CtPhieuNhapController.instance;
-            }
-            private set { CtPhieuNhapController.instance = value; }
-        }
-
-        private CtPhieuNhapController() { }
+                    insta }
 
         public List<chitiepphieunhap> XemCtPhieuNhap()
         {
