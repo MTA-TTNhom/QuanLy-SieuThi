@@ -25,19 +25,7 @@ namespace bai6quanlysieuthi.Controller
 
         public GiaoCaController() { }
         // xem phiếu giao ca
-        public List<phieugiaoca> XemGiaoCa()
-        {
-            List<phieugiaoca> list = new List<phieugiaoca>();
-            string query = "select ma,ngay,ca,maquay,manhanvien from phieugiaoca";
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows)
-            {
-                phieugiaoca hd = new phieugiaoca(item);
-                list.Add(hd);
-            }
-            return list;
-        }
-        // thêm phiếu giao ca
+        
         public bool InsertGiaoCa(string ma, DateTime ngay, int ca, string maquay ,string manhanvien)
         {
             string query = string.Format("insert phieugiaoca(ma,ngay,ca,maquay,manhanvien) values(N'{0}',N'{1}',{2},N'{3}',N'{4}')", ma, ngay, ca, maquay, manhanvien);
