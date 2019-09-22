@@ -48,6 +48,8 @@ namespace bai6quanlysieuthi
             else
             {
                 txtMatKhau.UseSystemPasswordChar = true;
+                if (e.KeyCode == Keys.Enter)
+                    btnDangNhap.Focus();
             }
         }
         private void txtTaiKhoan_KeyDown(object sender, KeyEventArgs e)
@@ -56,6 +58,12 @@ namespace bai6quanlysieuthi
                 txtMatKhau.Focus();
         }
         private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                btnDangNhap.Focus();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
                 btnDangNhap.Focus();
