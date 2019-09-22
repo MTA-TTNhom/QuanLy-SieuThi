@@ -22,5 +22,51 @@ namespace bai6quanlysieuthi
 // day la form huong dan 
 
         }
+        /*//
+         * 
+         * 
+         * ewqewqyeqwiueqwuiscsddds
+         * fsdf
+         * df
+         * sdf
+         * dsf
+         * dsf
+         * ds
+         * fd
+         * saf
+         * ds
+         * tgb4
+         * tregt
+         *  n5n 
+         *  yju7mi
+         *  6i
+         *  6i
+         *  yhghj
+         *  h
+         *  hgj
+         *  hg
+         *  h
+         *  h
+         *  
+         *  
+         *  
+         * /*/
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (cbSearchCTHD.Text == @"Mã hóa đơn")
+            {
+                if (txtSearchCTHD.Text != "")
+                {
+                    dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd(txtSearchCTHD.Text);
+                }
+            }
+            else if (cbSearchCTHD.Text == @"Mã mặt hàng")
+            {
+                if (txtSearchCTHD.Text != "")
+                {
+                    dgvCtHoaDon.DataSource = CtHoaDonController.Instance.SearchCtHd1(txtSearchCTHD.Text);
+                }
+            }
+        }
     }
 }
