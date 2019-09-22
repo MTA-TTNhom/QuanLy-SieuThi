@@ -213,27 +213,55 @@ namespace bai6quanlysieuthi
 
         private void txtMaHoaDon_TextChanged(object sender, EventArgs e)
         {
-
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString(); txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-
+            txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString(); txtSTT.Text = dgvCtXuatKho.CurrentRow.Cells[0].Value.ToString();
+            cbMaXuat.Text = dgvCtXuatKho.CurrentRow.Cells[1].Value.ToString();
+            cbMaMatHang.Text = dgvCtXuatKho.CurrentRow.Cells[2].Value.ToString();
+            txtSoLuong.Text = dgvCtXuatKho.CurrentRow.Cells[3].Value.ToString();
+            txtDonGia.Text = dgvCtXuatKho.CurrentRow.Cells[4].Value.ToString();
         }
 
         private void btnSearch_CTHD_Click(object sender, EventArgs e)
