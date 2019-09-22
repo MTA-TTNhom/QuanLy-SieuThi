@@ -162,6 +162,12 @@ namespace bai6quanlysieuthi
 
         private void btnInsert_CTHD_Click_1(object sender, EventArgs e)
         {
+            /* them san pham  
+             *  cac thog aso them 
+             *  sevcvdscsd
+             *  dsdas
+             * 
+             * */
             if (txtMaHoaDon.Text == "" || cbMaMatHang.Text == "" || txtSoLuong.Text == "")
             {
                 if (txtMaHoaDon.Text == "")
