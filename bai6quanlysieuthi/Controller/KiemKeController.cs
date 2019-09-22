@@ -23,19 +23,6 @@ namespace bai6quanlysieuthi.Controller
             private set { KiemKeController.instance = value; }
         }
 
-        private KiemKeController() { }
-
-        public List<phieukiemke> XemKiemKe()
-        {
-            List<phieukiemke> list = new List<phieukiemke>();
-            string query = "select ma,ngaylap,mamathang,soluong,makhohang,manhanvien from phieukiemke";
-            DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow item in data.Rows)
-            {
-                phieukiemke kk = new phieukiemke(item);
-                list.Add(kk);
-            }
-            return list;
-        }
+        
     }
 }
