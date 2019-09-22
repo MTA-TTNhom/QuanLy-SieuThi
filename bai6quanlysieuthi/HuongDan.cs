@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace bai6quanlysieuthi
 {
-    public partial class HuongDan : Form
+    public partial class HuongDan: Form
     {
         public HuongDan()
         {

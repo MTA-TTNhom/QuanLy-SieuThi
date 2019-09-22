@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnExit_CTHD = new System.Windows.Forms.Button();
             this.btnDelete_CTHD = new System.Windows.Forms.Button();
             this.btnUpdate_CTHD = new System.Windows.Forms.Button();
@@ -61,6 +61,7 @@
             // btnExit_CTHD
             // 
             this.btnExit_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnExit_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit_CTHD.Location = new System.Drawing.Point(762, 391);
             this.btnExit_CTHD.Name = "btnExit_CTHD";
@@ -68,11 +69,11 @@
             this.btnExit_CTHD.TabIndex = 19;
             this.btnExit_CTHD.Text = "Thoát";
             this.btnExit_CTHD.UseVisualStyleBackColor = false;
-
             // 
             // btnDelete_CTHD
             // 
             this.btnDelete_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnDelete_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete_CTHD.Location = new System.Drawing.Point(762, 335);
             this.btnDelete_CTHD.Name = "btnDelete_CTHD";
@@ -80,11 +81,11 @@
             this.btnDelete_CTHD.TabIndex = 17;
             this.btnDelete_CTHD.Text = "Xóa";
             this.btnDelete_CTHD.UseVisualStyleBackColor = false;
-
             // 
             // btnUpdate_CTHD
             // 
             this.btnUpdate_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnUpdate_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdate_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate_CTHD.Location = new System.Drawing.Point(762, 279);
             this.btnUpdate_CTHD.Name = "btnUpdate_CTHD";
@@ -92,11 +93,11 @@
             this.btnUpdate_CTHD.TabIndex = 16;
             this.btnUpdate_CTHD.Text = "Sửa";
             this.btnUpdate_CTHD.UseVisualStyleBackColor = false;
-
             // 
             // btnInsert_CTHD
             // 
             this.btnInsert_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnInsert_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInsert_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsert_CTHD.Location = new System.Drawing.Point(762, 167);
             this.btnInsert_CTHD.Name = "btnInsert_CTHD";
@@ -104,11 +105,12 @@
             this.btnInsert_CTHD.TabIndex = 15;
             this.btnInsert_CTHD.Text = "Thêm";
             this.btnInsert_CTHD.UseVisualStyleBackColor = false;
-
+            this.btnInsert_CTHD.Click += new System.EventHandler(this.btnInsert_CTHD_Click_1);
             // 
             // btnView_CTHD
             // 
             this.btnView_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnView_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnView_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnView_CTHD.Location = new System.Drawing.Point(762, 222);
             this.btnView_CTHD.Name = "btnView_CTHD";
@@ -116,24 +118,22 @@
             this.btnView_CTHD.TabIndex = 14;
             this.btnView_CTHD.Text = "Xem";
             this.btnView_CTHD.UseVisualStyleBackColor = false;
-
             // 
             // dgvCtHoaDon
             // 
             this.dgvCtHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCtHoaDon.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvCtHoaDon.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCtHoaDon.Location = new System.Drawing.Point(44, 190);
             this.dgvCtHoaDon.Name = "dgvCtHoaDon";
             this.dgvCtHoaDon.Size = new System.Drawing.Size(691, 244);
             this.dgvCtHoaDon.TabIndex = 20;
-
             // 
             // panel1
             // 
@@ -149,6 +149,7 @@
             // btnSearch_CTHD
             // 
             this.btnSearch_CTHD.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSearch_CTHD.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSearch_CTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch_CTHD.Location = new System.Drawing.Point(557, 7);
             this.btnSearch_CTHD.Name = "btnSearch_CTHD";
@@ -156,15 +157,16 @@
             this.btnSearch_CTHD.TabIndex = 11;
             this.btnSearch_CTHD.Text = "Tìm kiếm";
             this.btnSearch_CTHD.UseVisualStyleBackColor = false;
-
+            this.btnSearch_CTHD.Click += new System.EventHandler(this.btnSearch_CTHD_Click);
             // 
             // txtSearchCTHD
             // 
             this.txtSearchCTHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchCTHD.Location = new System.Drawing.Point(240, 8);
+            this.txtSearchCTHD.Location = new System.Drawing.Point(286, 10);
             this.txtSearchCTHD.Name = "txtSearchCTHD";
-            this.txtSearchCTHD.Size = new System.Drawing.Size(155, 26);
+            this.txtSearchCTHD.Size = new System.Drawing.Size(228, 26);
             this.txtSearchCTHD.TabIndex = 10;
+            this.txtSearchCTHD.TextChanged += new System.EventHandler(this.txtSearchCTHD_TextChanged);
             // 
             // cbSearchCTHD
             // 
@@ -175,12 +177,14 @@
             "Mã mặt hàng"});
             this.cbSearchCTHD.Location = new System.Drawing.Point(50, 8);
             this.cbSearchCTHD.Name = "cbSearchCTHD";
-            this.cbSearchCTHD.Size = new System.Drawing.Size(143, 28);
+            this.cbSearchCTHD.Size = new System.Drawing.Size(184, 28);
             this.cbSearchCTHD.TabIndex = 10;
+            this.cbSearchCTHD.SelectedIndexChanged += new System.EventHandler(this.cbSearchCTHD_SelectedIndexChanged);
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.txtMaHoaDon);
             this.panel2.Controls.Add(this.cbMaMatHang);
             this.panel2.Controls.Add(this.txtDonGia);
@@ -191,6 +195,7 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel2.Location = new System.Drawing.Point(44, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(803, 120);
@@ -203,6 +208,7 @@
             this.txtMaHoaDon.Name = "txtMaHoaDon";
             this.txtMaHoaDon.Size = new System.Drawing.Size(101, 26);
             this.txtMaHoaDon.TabIndex = 10;
+            this.txtMaHoaDon.TextChanged += new System.EventHandler(this.txtMaHoaDon_TextChanged);
             // 
             // cbMaMatHang
             // 
@@ -238,19 +244,21 @@
             this.txtSTT.ReadOnly = true;
             this.txtSTT.Size = new System.Drawing.Size(101, 26);
             this.txtSTT.TabIndex = 5;
+            this.txtSTT.TextChanged += new System.EventHandler(this.txtSTT_TextChanged);
             // 
             // label5
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(435, 8);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "Số lượng";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(435, 45);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 23);
@@ -259,30 +267,33 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(45, 84);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 23);
             this.label3.TabIndex = 2;
             this.label3.Text = "Mã mặt hàng";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(45, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 23);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mã hóa đơn";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(45, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "STT";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // errorProvider1
             // 
@@ -292,6 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(884, 461);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

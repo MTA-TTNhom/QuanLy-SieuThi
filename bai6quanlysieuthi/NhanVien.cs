@@ -11,7 +11,7 @@ using bai6quanlysieuthi.Controller;
 
 namespace bai6quanlysieuthi.Views
 {
-    public partial class NhanVien : Form
+    public partial class NhanVien: Form
     {
         public NhanVien()
         {
@@ -101,8 +101,39 @@ namespace bai6quanlysieuthi.Views
         private void dgvPhieuGC_CellClick(object sender, DataGridViewCellEventArgs e)
         {
         }
+
+        private void btnSearch_NV_Click_1(object sender, EventArgs e)
+        {
+            if (cbSearch.Text == @"Mã nhân viên")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
+                }
+            }
+            else if (cbSearch.Text == @"Số điện thoại")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
+                }
+            }
+        }
+
+        private void txtDiaChi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnView_NV_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            HangHoa open = new HangHoa();
+            open.Show();
+        }
         #endregion
-#region theem phiếu giao ca
-       
+
+        #region theem phiếu giao ca
+
     }
 }

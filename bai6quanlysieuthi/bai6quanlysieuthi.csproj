@@ -47,56 +47,100 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChiTiet_HD.cs">
+    <Compile Include="Bus\DataProvider.cs" />
+    <Compile Include="Controller\CTGiaoCaController.cs" />
+    <Compile Include="Controller\CtHoaDonController.cs" />
+    <Compile Include="Controller\CtXuatKhoController.cs" />
+    <Compile Include="Controller\DangNhapController.cs" />
+    <Compile Include="Models\chitiethoadon.cs" />
+    <Compile Include="Models\chitietphieugiaoca.cs" />
+    <Compile Include="Models\chitietphieuxuat.cs" />
+    <Compile Include="Models\chucvu.cs" />
+    <Compile Include="Models\hoadon.cs" />
+    <Compile Include="Models\khachhang.cs" />
+    <Compile Include="Models\khohang.cs" />
+    <Compile Include="Models\mathang.cs" />
+    <Compile Include="Models\nhacungcap.cs" />
+    <Compile Include="Models\nhanvien.cs" />
+    <Compile Include="Models\phieugiaoca.cs" />
+    <Compile Include="Models\phieuxuatkho.cs" />
+    <Compile Include="Models\qlsieuthiModels.cs" />
+    <Compile Include="Models\quayhang.cs" />
+    <Compile Include="Models\sysdiagram.cs" />
+    <Compile Include="Views\ChiTiet_HD.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChiTiet_HD.Designer.cs">
+    <Compile Include="Views\ChiTiet_HD.Designer.cs">
       <DependentUpon>ChiTiet_HD.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChiTiet_XuatKho.cs">
+    <Compile Include="Views\ChiTiet_XuatKho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChiTiet_XuatKho.Designer.cs">
+    <Compile Include="Views\ChiTiet_XuatKho.Designer.cs">
       <DependentUpon>ChiTiet_XuatKho.cs</DependentUpon>
     </Compile>
-    <Compile Include="DangNhap.cs">
+    <Compile Include="Views\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DangNhap.Designer.cs">
+    <Compile Include="Views\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="HangHoa.cs">
+    <Compile Include="Views\HangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HangHoa.Designer.cs">
+    <Compile Include="Views\HangHoa.Designer.cs">
       <DependentUpon>HangHoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="HuongDan.cs">
+    <Compile Include="Views\HuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HuongDan.Designer.cs">
+    <Compile Include="Views\HuongDan.Designer.cs">
       <DependentUpon>HuongDan.cs</DependentUpon>
     </Compile>
-    <Compile Include="KhachHang.cs">
+    <Compile Include="Views\KhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KhachHang.Designer.cs">
+    <Compile Include="Views\KhachHang.Designer.cs">
       <DependentUpon>KhachHang.cs</DependentUpon>
     </Compile>
-    <Compile Include="NhanVien.cs">
+    <Compile Include="Views\NhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NhanVien.Designer.cs">
+    <Compile Include="Views\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrangChu.cs">
+    <Compile Include="Views\TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TrangChu.Designer.cs">
+    <Compile Include="Views\TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\ChiTiet_HD.resx">
+      <DependentUpon>ChiTiet_HD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ChiTiet_XuatKho.resx">
+      <DependentUpon>ChiTiet_XuatKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+
+    <EmbeddedResource Include="HangHoa.resx">
+      <DependentUpon>HangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KhachHang.resx">
+
+    <EmbeddedResource Include="Views\KhachHang.resx">
+
+    <EmbeddedResource Include="Views\KhachHang.resx">
+
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -106,6 +150,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

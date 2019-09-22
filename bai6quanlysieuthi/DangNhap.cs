@@ -63,10 +63,11 @@ namespace bai6quanlysieuthi
                 btnDangNhap.Focus();
         }
 
+
         private void label1_Click(object sender, EventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
                 btnDangNhap.Focus();
-        }
+
     }
 }
