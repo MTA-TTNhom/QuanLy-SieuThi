@@ -16,5 +16,11 @@ namespace bai6quanlysieuthi
         {
             InitializeComponent();
         }
+
+        private void HuongDan_Load(object sender, EventArgs e)
+        {
+// day la form huong dan 
+
+        }
     }
 }
