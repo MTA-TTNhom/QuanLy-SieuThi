@@ -51,6 +51,7 @@
     <Compile Include="Controller\CTGiaoCaController.cs" />
     <Compile Include="Controller\CtHoaDonController.cs" />
     <Compile Include="Controller\CtXuatKhoController.cs" />
+    <Compile Include="Controller\DangNhapController.cs" />
     <Compile Include="Models\chitiethoadon.cs" />
     <Compile Include="Models\chitietphieugiaoca.cs" />
     <Compile Include="Models\chitietphieuxuat.cs" />
