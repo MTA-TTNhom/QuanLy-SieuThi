@@ -267,6 +267,23 @@ namespace bai6quanlysieuthi.Views
                 }
             }
         }
+        private void btnSearch_NV_Click_1(object sender, EventArgs e)
+        {
+            if (cbSearch.Text == @"Mã nhân viên")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
+                }
+            }
+            else if (cbSearch.Text == @"Số điện thoại")
+            {
+                if (txtSearch.Text != "")
+                {
+                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
+                }
+            }
+        }
         #endregion
 
         #region phiếu giao ca
@@ -299,30 +316,7 @@ namespace bai6quanlysieuthi.Views
             txtMaQuayGC.Text = dgvPhieuGC.CurrentRow.Cells[3].Value.ToString();
             txtMaNhanVienGc.Text = dgvPhieuGC.CurrentRow.Cells[4].Value.ToString();
         }
-
-        private void btnSearch_NV_Click_1(object sender, EventArgs e)
-        {
-            if (cbSearch.Text == @"Mã nhân viên")
-            {
-                if (txtSearch.Text != "")
-                {
-                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien(txtSearch.Text);
-                }
-            }
-            else if (cbSearch.Text == @"Số điện thoại")
-            {
-                if (txtSearch.Text != "")
-                {
-                    dgvNhanVien.DataSource = NhanVienController.Instance.SearchNhanVien1(txtSearch.Text);
-                }
-            }
-        }
-        private void btnExit_PGC_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
         #endregion
-
         #region theem phiếu giao ca
         private void btnInsert_PGC_Click(object sender, EventArgs e)
         {
@@ -382,7 +376,7 @@ namespace bai6quanlysieuthi.Views
             }
         }
         #endregion
-#region sửa phiếu giao ca
+        #region sửa phiếu giao ca
         private void btnUpdate_PGC_Click(object sender, EventArgs e)
         {
             if (txtMaGC.Text == "" || cbCaGc.Text == "" || txtMaNhanVienGc.Text == "" || txtMaQuayGC.Text == "")
@@ -441,7 +435,7 @@ namespace bai6quanlysieuthi.Views
             }
         }
         #endregion
-#region xóa phiếu giao ca
+        #region xóa phiếu giao ca
         private void btnDelete_PGC_Click(object sender, EventArgs e)
         {
             if (txtMaGC.Text == "")
@@ -469,5 +463,36 @@ namespace bai6quanlysieuthi.Views
         }
         #endregion
 
+        private void btnSearch_PGC_Click(object sender, EventArgs e)
+        {
+            if (txtMaGC.Text == "" && txtMaQuayGC.Text == "" && txtMaNhanVienGc.Text == "")
+            {
+                if (txtMaGC.Text == "")
+                    errorProvider1.SetError(txtMaGC, "Chưa có mã cần tìm");
+                if (txtMaQuayGC.Text == "")
+                    errorProvider1.SetError(txtMaQuayGC, "Chưa có mã quầy cần tìm");
+                if (txtMaNhanVienGc.Text == "")
+                    errorProvider1.SetError(txtMaNhanVienGc, "Chưa có mã nhân viên cần tìm");
+                MessageBox.Show("Nhập vào thông tin cần tìm");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            string ma = txtMaGC.Text;
+            string maquay = txtMaQuayGC.Text;
+            string manhanvien = txtMaNhanVienGc.Text;
+            dgvPhieuGC.DataSource = GiaoCaController.Instance.SearchGiaoCa(ma, maquay, manhanvien);
+        }
+        private void btnExit_PGC_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+
+
+        #endregion
     }
 }
