@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using bai6quanlysieuthi.Views;
 
 namespace bai6quanlysieuthi
 {
@@ -16,7 +17,7 @@ namespace bai6quanlysieuthi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DangNhap());
+            Application.Run(new login());
         }
     }
 }
