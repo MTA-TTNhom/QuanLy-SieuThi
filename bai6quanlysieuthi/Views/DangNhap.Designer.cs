@@ -135,6 +135,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.TextBox txtMatKhau;
-        
+        private System.Windows.Forms.Button btnDangNhap;
+        private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
