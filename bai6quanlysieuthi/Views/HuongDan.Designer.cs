@@ -40,6 +40,38 @@
             this.geckoWebBrowser1 = new Gecko.GeckoWebBrowser();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
+            // 
+            // geckoWebBrowser1
+            // 
+            this.geckoWebBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.geckoWebBrowser1.Location = new System.Drawing.Point(169, 12);
+            this.geckoWebBrowser1.Name = "geckoWebBrowser1";
+            this.geckoWebBrowser1.Size = new System.Drawing.Size(703, 487);
+            this.geckoWebBrowser1.TabIndex = 0;
+            this.geckoWebBrowser1.UseHttpActivityObserver = false;
+            // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(12, 12);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "dangnhap";
+            treeNode1.Text = "Đăng nhập";
+            treeNode2.Name = "khachhang";
+            treeNode2.Text = "Khách hàng";
+            treeNode3.Name = "nhanvien";
+            treeNode3.Text = "Nhân viên";
+            treeNode4.Name = "hanghoa";
+            treeNode4.Text = "Hàng hóa";
+            treeNode5.Name = "Node0";
+            treeNode5.Text = "Hướng dẫn";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode5});
+            this.treeView1.Size = new System.Drawing.Size(151, 487);
+            this.treeView1.TabIndex = 1;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+
         }
 
         #endregion
