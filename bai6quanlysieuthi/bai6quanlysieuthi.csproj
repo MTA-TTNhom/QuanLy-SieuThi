@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bus\DataProvider.cs" />
     <Compile Include="ChiTiet_HD.cs">
       <SubType>Form</SubType>
     </Compile>
