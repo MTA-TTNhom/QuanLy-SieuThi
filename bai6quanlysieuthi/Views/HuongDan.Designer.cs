@@ -71,9 +71,23 @@
             this.treeView1.Size = new System.Drawing.Size(151, 487);
             this.treeView1.TabIndex = 1;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            // 
+            // HuongDan
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(884, 511);
+            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.geckoWebBrowser1);
+            this.Name = "HuongDan";
+            this.Text = "HuongDan";
+            this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private Gecko.GeckoWebBrowser geckoWebBrowser1;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
