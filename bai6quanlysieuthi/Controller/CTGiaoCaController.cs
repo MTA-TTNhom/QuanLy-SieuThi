@@ -38,7 +38,7 @@ namespace bai6quanlysieuthi.Controller
             return list;
         }
         // thêm chi tiết phiếu giao ca
-        public bool InsertCtGiaoCa(string magiaoca, string mamathang, int soluong)
+        public bool InsertCtGiaoCa(string magiaoca,string mamathang ,int soluong)
         {
             string query = string.Format("insert chitietphieugiaoca(magiaoca,mamathang,soluong) values(N'{0}',N'{1}',N'{2}')", magiaoca, mamathang, soluong);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
@@ -52,7 +52,7 @@ namespace bai6quanlysieuthi.Controller
         // xóa chi tiết giao ca
         public bool DeleteCtGiaoCa(int stt)
         {
-            string query = string.Format("delete chitietphieugiaoca where stt={0}", stt);
+            string query = string.Format("delete chitietphieugiaoca where stt={0}",stt);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
         }
         // tìm kiếm chi tiết phiếu giao ca
@@ -61,7 +61,7 @@ namespace bai6quanlysieuthi.Controller
             List<chitietphieugiaoca> list = new List<chitietphieugiaoca>();
             string query = string.Format("select * from chitietphieugiaoca where magiaoca like N'%{0}%' and mamathang like N'%{1}%'", magiaoca, mamathang);
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow i in data.Rows)
+            foreach(DataRow i in data.Rows)
             {
                 chitietphieugiaoca ct = new chitietphieugiaoca(i);
                 list.Add(ct);
