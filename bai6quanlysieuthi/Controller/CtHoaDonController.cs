@@ -38,14 +38,14 @@ namespace bai6quanlysieuthi.Controller
             return list;
         }
         // thêm chi tiết hóa đơn
-        public bool InsertCTHD(string mahd, string mamh, int sl)
+        public bool InsertCTHD(string mahd,string mamh,int sl)
         {
             //string query = string.Format("insert chitiethoadon(mahoadon,mamathang,soluong) values(N'{0}',N'{1}',N'{2}')", mahd, mamh, sl);
             string query = string.Format("exec proc_giatien N'{0}',N'{1}',{2}", mahd, mamh, sl);
             return DataProvider.Instance.ExecuteNonQuery(query) > 0;
         }
         // sửa chi tiết hóa đơn
-        public bool UpdateCTHD(int stt, string mahd, string mamh, int sl)
+        public bool UpdateCTHD(int stt,string mahd,string mamh,int sl)
         {
             //string query = string.Format("update chitiethoadon set mahoadon=N'{0}',mamathang=N'{1}',soluong={2} where stt={3}", mahd, mamh, sl, stt);
             string query = string.Format("exec proc_updateCtHd N'{0}',N'{1}',{2},{3}", mahd, mamh, sl, stt);
@@ -61,15 +61,15 @@ namespace bai6quanlysieuthi.Controller
         public List<chitiethoadon> SearchCtHd(string mahoadon)
         {
             List<chitiethoadon> list = new List<chitiethoadon>();
-            string query = string.Format("select * from chitiethoadon ct inner join hoadon hd on ct.mahoadon=hd.ma where hd.ma like N'%{0}%' ", mahoadon);
+            string query = string.Format("select * from chitiethoadon ct inner join hoadon hd on ct.mahoadon=hd.ma where hd.ma like N'%{0}%' ",mahoadon);
             DataTable data = DataProvider.Instance.ExecuteQuery(query);
-            foreach (DataRow i in data.Rows)
+            foreach(DataRow i in data.Rows)
             {
                 chitiethoadon ct = new chitiethoadon(i);
                 list.Add(ct);
             }
             return list;
-        }
+         }
 
         public List<chitiethoadon> SearchCtHd1(string mamathang)
         {
